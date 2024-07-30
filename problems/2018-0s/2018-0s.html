@@ -1,0 +1,2765 @@
+
+
+
+
+
+
+
+
+    
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+        <meta name="google" content="notranslate" />
+        <meta http-equiv="Content-Language" content="en_US" />
+
+        <title>Number Theory Problem on Trailing Number of Zeroes: 2018 0&#39;s - Rajen Kapur | Brilliant</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0">
+        <meta property="fb:app_id" content="326254770799145" />
+        <link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/eommhbliilafdkodaijeejngbjiiaccl">
+        
+            
+                <meta property="al:ios:url" content="com.brilliant.Brilliant://problems/2018-0s/" />
+                <meta property="al:ios:app_store_id" content="913335252" />
+                <meta property="al:ios:app_name" content="Brilliant.org" />
+                <meta property="al:android:url" content="https://brilliant.org/problems/2018-0s/">
+                <meta property="al:android:package" content="org.brilliant.android">
+                <meta property="al:android:app_name" content="Brilliant">
+            
+            
+                <link rel="canonical" href="2018-0s.html">
+            
+            
+            
+            <link rel="alternate" href="android-app://org.brilliant.android/http/brilliant.org/problems/2018-0s/">
+        
+
+        
+
+        <link rel="apple-touch-icon-precomposed" href="https://brilliant.org/apple-touch-icon-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="https://brilliant.org/apple-touch-icon-72x72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="https://brilliant.org/apple-touch-icon-76x76-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="https://brilliant.org/apple-touch-icon-114x114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="https://brilliant.org/apple-touch-icon-120x120-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="https://brilliant.org/apple-touch-icon-144x144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="https://brilliant.org/apple-touch-icon-152x152-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="https://brilliant.org/apple-touch-icon-180x180-precomposed.png">
+
+        
+    
+        
+    
+
+        
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <link href="../../site_media/build/dist/brilliant_desktop.08841363eec0424ed68d.css" rel="stylesheet" media="all" type="text/css">
+
+
+
+    
+    
+
+
+    
+    
+    
+    
+
+
+        
+        
+        <!--[if lt IE 6]><script type="text/javascript">var ie_version = -1;</script><![endif]-->
+        <!--[if IE 6]><script type="text/javascript">var ie_version = 6;</script><![endif]-->
+        <!--[if IE 7]><script type="text/javascript">var ie_version = 7;</script><![endif]-->
+        <!--[if IE 8]><script type="text/javascript">var ie_version = 8;</script><![endif]-->
+        <!--[if IE 9]><script type="text/javascript">var ie_version = 9;</script><![endif]-->
+
+        
+        
+
+
+    <script type="text/javascript">
+        (function (w, loc) {
+            var u = /ds055uzetaobb\.cloudfront\.net|d18l82el6cdm1i\.cloudfront\.net/;
+            if(u.test(loc.host)){ w.location=loc.protocol+'//brilliant.org'+loc.pathname;}
+        })(window,window.location);
+    </script>
+
+
+        
+
+        <noscript>
+            <style>.cmp-deferred .no-js{display:block !important;}</style>
+        </noscript>
+
+    </head>
+
+        
+        <body class="no-js
+                use_katex
+                
+                
+                active
+                
+                
+                
+                b2
+                
+                enable-remind-share-buttons
+                solv-page endstate
+                fonts
+                hdr-big"
+            data-is-mobile="false"
+            
+            data-app-version="0.0.0"
+            data-user="12320532"
+            data-media-host="https://ds055uzetaobb.cloudfront.net"
+            data-third-party-cookies-enabled="true">
+
+        
+        <!-- site_is_live -->
+        
+
+            
+            
+
+            
+
+            
+
+                
+                    <div id="header" class="site-header">
+                        
+    
+                            
+                                
+
+<div class="container">
+    <div class="hdr-logo col col-3">
+        
+            <a href="https://brilliant.org/daily-problems/" class="css-sprite-logos">Brilliant</a>
+        
+    </div>
+
+    
+        
+
+
+
+
+
+
+
+
+
+<div class="hdr-links">
+
+    <span class="hdr-link">
+        <a href="https://brilliant.org/daily-problems/">
+            Today
+        </a>
+    </span>
+
+    <span class="hdr-link">
+        <a href="https://brilliant.org/courses/" class="">
+            Courses
+        </a>
+    </span>
+
+    
+    
+        <div id="topic-list" class="hdr-expandable" data-controller="app/header:topicsNav">
+            
+                <span class="hdr-link">
+                    
+                    <a href="https://brilliant.org/algebra/" class="toggle active">
+                        Practice
+                    </a>
+                </span>
+            
+            <div>
+                <ul class="unstyled col-8">
+                    <li class="clearfix"><a href="https://brilliant.org/algebra/" data-tag-url="/algebra/" class=""><span class="hdr-topic-icon algebra"></span>
+                Algebra
+            </a></li><li class="clearfix"><a href="https://brilliant.org/geometry/" data-tag-url="/geometry/" class=""><span class="hdr-topic-icon geometry"></span>
+                Geometry
+            </a></li><li class="clearfix"><a href="https://brilliant.org/number-theory/" data-tag-url="/number-theory/" class=""><span class="hdr-topic-icon number-theory"></span>
+                Number Theory
+            </a></li><li class="clearfix"><a href="https://brilliant.org/calculus/" data-tag-url="/calculus/" class=""><span class="hdr-topic-icon calculus"></span>
+                Calculus
+            </a></li><li class="clearfix"><a href="https://brilliant.org/discrete-mathematics/" data-tag-url="/discrete-mathematics/" class=""><span class="hdr-topic-icon discrete-mathematics"></span>
+                Probability
+            </a></li><li class="clearfix"><a href="https://brilliant.org/basic-mathematics/" data-tag-url="/basic-mathematics/" class=""><span class="hdr-topic-icon basic-mathematics"></span>
+                Basic Mathematics
+            </a></li><li class="clearfix"><a href="https://brilliant.org/logic/" data-tag-url="/logic/" class=""><span class="hdr-topic-icon logic"></span>
+                Logic
+            </a></li><li class="clearfix"><a href="https://brilliant.org/mechanics/" data-tag-url="/mechanics/" class=""><span class="hdr-topic-icon mechanics"></span>
+                Classical Mechanics
+            </a></li><li class="clearfix"><a href="https://brilliant.org/electricity-and-magnetism/" data-tag-url="/electricity-and-magnetism/" class=""><span class="hdr-topic-icon electricity-and-magnetism"></span>
+                Electricity and Magnetism
+            </a></li><li class="clearfix"><a href="https://brilliant.org/computer-science/" data-tag-url="/computer-science/" class=""><span class="hdr-topic-icon computer-science"></span>
+                Computer Science
+            </a></li><li class="clearfix"><a href="https://brilliant.org/quantitative-finance/" data-tag-url="/quantitative-finance/" class=""><span class="hdr-topic-icon quantitative-finance"></span>
+                Quantitative Finance
+            </a></li><li class="clearfix"><a href="https://brilliant.org/chemistry/" data-tag-url="/chemistry/" class=""><span class="hdr-topic-icon chemistry"></span>
+                Chemistry
+            </a></li>
+
+                </ul>
+            </div>
+        </div>
+
+        
+    
+</div>
+
+
+        
+    
+
+    <div id="cmp_profile_streak_id">
+        
+
+
+    </div>
+</div>
+
+                            
+                        
+
+                    </div>
+                
+
+            
+
+            
+
+            
+                
+            
+
+            <div id="system-msgs" class="row clearfix">
+                
+                    
+
+                    
+
+                    
+
+                    
+                        
+                        
+                        
+                    
+                
+            </div>
+            <div id="post-header">
+                
+            </div>
+
+            <div id="wrapper"
+                 class="container clearfix"
+                 data-controller="">
+
+                
+                    
+                
+
+                
+
+    
+        
+
+
+
+
+
+
+
+
+<div class="solv-container col col-12 col-last">
+
+    <div class="solv-main clearfix solutions"
+            id="solv-main"
+            data-controller="app/solvables:solvableRedesign,util/popstate:handler"
+            data-full-url="/problems/2018-0s/"
+            data-solvable="146287">
+
+        
+            <div id="cmp_assessment_public_solvable_logged_in_id">
+                
+
+
+    
+
+
+<div class="solv-header clearfix"
+    >
+
+    <div class="old-title-display">
+        <h1>2018 0&#39;s</h1>
+        
+    </div>
+
+    
+
+
+    
+        <div class="topic-level-info row">
+            
+                <span><strong>
+                    
+                        <a href="https://brilliant.org/number-theory/">
+                            Number Theory</a>
+                    
+                </strong></span>
+            
+
+            <span class="level-text" title="100 points">
+                Level
+                
+                    3
+                
+            </span>
+        </div>
+    
+</div>
+
+
+
+
+    <div class="solv-problem col col-7">
+        
+
+<div class="solv-content">
+    
+        
+    
+
+    
+        
+            
+
+
+
+    <div class="question-text latex">
+        
+
+
+
+
+<p>Find natural number <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>n</mi></mrow><annotation encoding="application/x-tex">n</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">n</span></span></span></span> such that <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo stretchy="false">(</mo><mn>5</mn><mi>n</mi><mo stretchy="false">)</mo><mo stretchy="false">!</mo></mrow><annotation encoding="application/x-tex">(5n)!</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord">5</span><span class="mord mathdefault">n</span><span class="mclose">)</span><span class="mclose">!</span></span></span></span> has 2018 trailing 0's.</p>
+
+
+    </div>
+
+
+        
+    
+</div>
+
+    </div>
+
+
+
+    
+
+
+
+    
+        <div class="col col-3 col-last">
+            <div class="solv-details clearfix endstate correct" data-solvable="146287">
+
+                
+                    
+
+
+
+
+
+
+
+
+
+    
+        
+
+
+
+
+
+<SCRIPT type="text/template"
+    id="ir_template_holder"
+    data-controller="app/instant_response:init"
+    data-salt="1jkvA8guq8ztHr01lPBAcImwv1VQOmzD"
+    data-hash="34dfd7a63cd8284a45069fc23cd628c2295deac4"
+    data-tries-left="0"
+    data-answers-list="1617"
+    data-is-mcq="false"
+    data-has-multiple-options="false"
+    data-problem-type="int"
+    data-attempt-number="3"
+    data-user-is-active="true"
+    data-export-only="false" 
+    data-is-float="false"
+    data-solvable="146287"
+    data-is-practice-section="false"
+    data-interactive="false"
+    >
+
+
+
+    <% if (canStillAnswer) { %>
+
+        
+            
+                <div class="solv-form clearfix"
+                    data-controller="app/solvables:answerFormWrapper"
+                    data-solvable="146287">
+
+                    
+                        
+<% if (canStillAnswer && triesLeft > 0) { %>
+
+
+    <% if (attemptNumber > 0) { %>
+        <% if (alreadyTriedThisAnswer) { %>
+            <p class="solv-form-text<%= (attemptNumber > 0 ? ' incorrect' : '' ) %>">
+                You already tried that answer!
+            </p>
+        <% } else { %>
+            <p class="solv-form-text<%= (attemptNumber > 0 ? ' incorrect' : '' ) %>">
+                <%= answersListWithAnd() %>
+                <%= attemptNumber == 1 ? 'is' : 'are'  %>
+                incorrect.
+            </p>
+        <% } %>
+    <% } %>
+
+    <p class="solv-tries-left">
+        
+            <% if (triesLeft === 1) { %>
+                1 try left.
+            <% } else { %>
+                <%= triesLeft %> tries left.
+            <% } %>
+        
+    </p>
+
+<% } %>
+
+                        
+
+<form action="2018-0s.html#" novalidate>
+
+    <input type="hidden" name="csrfmiddlewaretoken" value="WJDxUxvjCsRNf6i20zORc3jltUotl3SPFxKyBXLPRiX4tbN5cGQ0XGGtzohrRaPY">
+    <input type="hidden" name="form_name" value="attempt">
+
+    <div class="fields">
+        
+            
+                <input type="hidden" name="page_key" value="assessment_public_solvable_logged_in" id="id_page_key">
+            
+        
+            
+                <input type="hidden" name="param_key" id="id_param_key">
+            
+        
+            
+                <input type="hidden" name="version" value="1" id="id_version">
+            
+        
+            
+                <input type="hidden" name="a_id" value="531055470" id="id_a_id">
+            
+        
+            
+                
+                    <input type="text"
+                        autocomplete="off"
+                        value="<% if(validationError) { print(answer); } %>"
+                        disabled="disabled"
+                        id="id-answer-instant">
+
+                    <% if(validationError) { %>
+                        <ul class="under-field-text unstyled row">
+                            <li>
+                                    <% if(answer === '') { %>
+                                        This field is required
+                                    <% } else { %>
+                                        Answer must be an integer
+                                    <% } %>
+                                
+                            </li>
+                        </ul>
+                    <% } else { %>
+                        
+                    <% } %>
+                
+            
+        
+    </div>
+
+    <div class="submit row">
+        <button class="btn btn-accent btn-submit active" disabled="disabled">
+            Submit
+        </button>
+    </div>
+</form>
+                    
+                </div>
+            
+        
+
+    <% } else { %>
+
+        
+            <div class="clearfix">
+                
+
+                <h3 class="row">
+                    <% if (answerIsCorrect) { %>
+                        Correct!<span class="css-sprite-solvables tada"></span>
+                    <% } else if (viewedSolution) { %>
+                        You <span class="css-sprite-solvables eyes"></span> the
+                        
+                            solution.
+                        
+                        <br>
+                        <em>Learn something new every day!</em>
+                    <% } else if (!interactive) { %>
+                        Incorrect.<span class="css-sprite-solvables point-down"></span>
+                        <br>
+                        <em>View the solution to learn why!</em>
+                    <% } %>
+
+                    
+                        
+                            <% if (answerIsCorrect && !interactive) { %>
+                                <br>The answer is <%= answer %>.
+                            <% } %>
+                        
+                    
+                </h3>
+            </div>
+
+            
+                <div class="more-details">
+                    
+                        <% if (answerIsCorrect) { %>
+                            <p>59% of people got this right.</p>
+                        <% } %>
+                    
+                </div>
+            
+        
+
+    <% } %>
+
+    
+        <div class="solv-details-footer">
+            
+                <% if (!canStillAnswer) { %>
+                    
+                        <button class="btn btn-accent esr-problem disabled">
+                            Continue
+                        </button>
+                    
+                <% } %>
+            
+
+            
+                <div class="solution-button-wrapper has-wiki">
+                    <button class="btn disabled">
+                        
+                            
+                                Discuss solutions
+                            
+                        
+                    </button>
+                </div>
+            
+
+            
+                <div class="wiki-button-wrapper">
+                    <button class="btn disabled">View wiki</button>
+                </div>
+            
+
+            
+
+
+
+
+
+            
+                <div class="solv-ir-loading row">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            
+        </div>
+    
+
+
+
+</SCRIPT>
+
+    
+
+
+
+    
+
+    
+        
+            
+
+
+<div class="clearfix"
+    >
+    
+
+    
+        <h3 class="row">
+            
+    
+
+            
+                <br>The answer is 1617.
+            
+        </h3>
+
+        
+    
+</div>
+
+
+    <div class="solv-details-footer"
+        data-controller="app/solvables:endstate">
+
+        
+            
+        
+
+        
+    
+
+
+        
+            
+
+    <div class="wiki-button-wrapper">
+        <a href="https://brilliant.org/wiki/trailing-number-of-zeros/"
+           class="btn ax-click"
+           target="_blank"
+           data-ax-type="link"
+           data-ax-id="clicked_wiki_link_desktop">
+
+            View wiki
+        </a>
+    </div>
+
+
+        
+
+        
+
+
+
+
+    </div>
+
+    
+
+
+
+
+
+
+
+
+
+        
+    
+
+    
+
+
+
+
+
+
+                
+            </div>
+        </div>
+    
+
+
+
+    
+
+    
+        
+
+
+
+<div class="solv-footer row clearfix ">
+    
+        <div class="solv-author">
+
+            
+                <div class="cmp_assessment_recently_solved_by_logged_out_id"
+                    data-solvable="146287">
+
+                    
+                </div>
+            
+
+            <div class="author-container clearfix">
+                
+
+
+    
+    
+    
+    
+    
+    
+    
+        
+            <a href="https://brilliant.org/profile/rajen-eon4ho/"
+                class="author avatar mini-profile"
+                data-id="gE0IqWavzwtYp5DbC2xrHx5egAuWjtHb"
+                data-controller="app/mini_profiles:controller">
+                    <img src="../../brioche/avatars-2/resized/45/06559abaf5c0885021195a11fa5fb372.06559abaf5c0885021195a11fa5fb372.jpg?width=45" alt="Rajen Kapur" width="45" height="45"></a>
+        
+
+        <span class="text">
+            
+
+                by
+                
+                    <a href="https://brilliant.org/profile/rajen-eon4ho/"
+                        class="btn-profile mini-profile"
+                        title="Rajen Kapur"
+                        data-id="gE0IqWavzwtYp5DbC2xrHx5egAuWjtHb"
+                        data-controller="app/mini_profiles:controller">
+                
+                
+                        Rajen Kapur</a>,
+                            
+                                72,
+                            
+                            <span title="India">India</span>
+                     
+                     
+                     
+
+             
+        </span>
+     
+     
+     
+     
+     
+     
+     
+
+
+
+                
+                    <div class="likes-container">
+                        
+
+                        
+
+                        
+                    </div>
+                
+            </div>
+
+        </div>
+    
+
+    
+        
+    
+</div>
+
+    
+
+
+
+
+
+
+
+
+    <div id="solvable-data"
+        data-num-solutions="4"
+        data-answer-is-correct="true"
+        data-attempt-number="3"
+        data-can-still-answer="false">
+    </div>
+    
+
+    
+        
+<div id="mentions-data"
+    data-url="/mentions/candidates/"
+    
+        data-id="146287"
+    
+    data-type="solvable">
+</div>
+    
+
+
+
+    <form action="2018-0s.html"
+    method="post"
+    id="enter-dispute-discussions-form"
+    class="hide"
+    data-solvable-id="146287"
+    data-controller="app/solvables:enterDisputeDiscussionsForm">
+
+    <input type="hidden" name="csrfmiddlewaretoken" value="WJDxUxvjCsRNf6i20zORc3jltUotl3SPFxKyBXLPRiX4tbN5cGQ0XGGtzohrRaPY">
+    <input type="hidden" name="page_key" value="assessment_public_solvable_logged_in" id="id_page_key"><input type="hidden" name="param_key" id="id_param_key"><input type="hidden" name="version" value="1" id="id_version">
+    <input name="form_name" value="see_dispute_discussions" type="hidden"/>
+</form>
+
+
+
+
+
+
+
+<div id="attempt-number" data-attempt-number="3"></div>
+
+            </div>
+        
+
+        
+            
+                <div class="hide"
+                    
+                    data-solvable="146287">
+                        
+                        
+<div class="cmp-deferred"
+    data-cmp_url="/problems/2018-0s/recently_solved_by/?"
+    data-cmp_page_key="assessment_public_solvable_logged_in"
+    data-cmp_component_key="assessment_recently_solved_by_logged_out"
+    >
+
+    <div class="js hide-on-error"></div>
+
+    
+        <div class="no-js">
+            <p>
+                <strong>This section requires Javascript.</strong><br>
+                You are seeing this because something didn't load right. We suggest you, (a) try
+                refreshing the page, (b) enabling javascript if it is disabled on your browser and,
+                finally, (c) <a href="https://brilliant.org/problems/2018-0s/?no_js=true">loading the
+                non-javascript version of this page</a>. We're sorry about the hassle.
+            </p>
+        </div>
+    
+</div>
+
+                </div>
+            
+        
+
+        
+            <div class="solv-solutions row"
+                id="solutions-scrollable-container">
+
+                <div id="cmp_solutiondiscussions_publicsolvableaddsolutionpost_id">
+                    
+                </div>
+                <div id="cmp_groups_groupsolvableaddsolutionpost_id">
+                    
+                </div>
+
+                
+                    <div id="cmp_assessment_end_state_header_id">
+                        
+<div class="solv-end-state-header row">
+    
+    
+
+
+<div class="discsol-list-header row">
+    <h2>
+        
+            
+                4 solutions
+            
+        
+    </h2>
+
+    
+        <h3>
+            
+                
+            
+        </h3>
+    
+</div>
+
+
+    
+    
+</div>
+
+                    </div>
+                
+
+                <div id="cmp_solutiondiscussions_publicsolvablesolutionlist_id">
+                    
+                        
+
+<div class="cmp_d4de55c89e1476f76424403ce7fe736e_id">
+
+
+<div class="discsol-list row" data-controller="app/solution_discussions:comments">
+
+    
+        
+
+        
+
+        
+            
+                
+            
+            
+
+
+
+
+
+
+
+
+<div
+    class="discsol-post-wrapper row "
+    
+>
+    <div id="post-192465" class="discsol-post solution cmmnt row clearfix has-text-formatting-bar">
+        <div class="solution-main row">
+
+            
+                
+                    
+                        <div class="solution-header with-actions row">
+
+                            
+                                <div class="avatar mini-profile">
+                                    
+                                        <img src="../../brioche/avatars-2/resized/45/01cc373802bc9078310429a4135c7b4c.cdc07d6ce4-Xkwf56Tq4X.jpg?width=45" alt="" width="45" height="45">
+                                    
+                                </div>
+
+                                <div class="text"><div>
+                                        
+                                            <a href="https://brilliant.org/profile/chew-seong-872sn7/"
+                                                rel="nofollow"
+                                                class="btn-profile mini-profile"
+                                                data-id="BlZLE8XibLhZYlb8Wbq0zZ7PWtY9jamU"
+                                                data-controller="app/mini_profiles:controller">
+                                                    Chew-Seong Cheong
+                                            </a>
+                                        
+                                        
+                                        <br>
+                                        
+                                            <span title="April 28, 2018, 11:09 p.m.">Apr 28, 2018</span>
+                                        
+                                </div></div>
+                            
+
+                            
+                            
+                            
+                        </div>
+                    
+                
+            
+
+            <div class="edit-subscribe hide-on-edit hide-on-delete">
+                
+                
+
+                
+                
+
+                
+            </div>
+
+
+            
+
+            <div class="comment-content solution-content row">
+                <div class="hide-on-edit hide-on-delete row">
+                    
+
+                        
+                        
+                            <div class="text">
+                                
+                                
+                                
+                                    
+                                        <p>The number of trailing zeros of <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>N</mi><mo stretchy="false">!</mo></mrow><annotation encoding="application/x-tex">N!</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.10903em;">N</span><span class="mclose">!</span></span></span></span> is given by <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>z</mi><mo stretchy="false">(</mo><mi>N</mi><mo stretchy="false">)</mo><mo>=</mo><mstyle scriptlevel="0" displaystyle="true"><munderover><mo>∑</mo><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow><mi mathvariant="normal">∞</mi></munderover><mrow><mo fence="true">⌊</mo><mfrac><mi>N</mi><msup><mn>5</mn><mi>k</mi></msup></mfrac><mo fence="true">⌋</mo></mrow></mstyle></mrow><annotation encoding="application/x-tex">z(N) = \displaystyle \sum_{k=1}^\infty \left \lfloor \frac N{5^k} \right \rfloor </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.04398em;">z</span><span class="mopen">(</span><span class="mord mathdefault" style="margin-right:0.10903em;">N</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:2.9535100000000005em;vertical-align:-1.302113em;"></span><span class="mop op-limits"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.6513970000000002em;"><span style="top:-1.8478869999999998em;margin-left:0em;"><span class="pstrut" style="height:3.05em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.03148em;">k</span><span class="mrel mtight">=</span><span class="mord mtight">1</span></span></span></span><span style="top:-3.0500049999999996em;"><span class="pstrut" style="height:3.05em;"></span><span><span class="mop op-symbol large-op">∑</span></span></span><span style="top:-4.300005em;margin-left:0em;"><span class="pstrut" style="height:3.05em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">∞</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.302113em;"><span></span></span></span></span></span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="minner"><span class="mopen delimcenter" style="top:0em;"><span class="delimsizing size3">⌊</span></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.36033em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mord">5</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7751079999999999em;"><span style="top:-2.9890000000000003em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight" style="margin-right:0.03148em;">k</span></span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord mathdefault" style="margin-right:0.10903em;">N</span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mclose delimcenter" style="top:0em;"><span class="delimsizing size3">⌋</span></span></span></span></span></span>. Therefore, <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mstyle scriptlevel="0" displaystyle="true"><munderover><mo>∑</mo><mstyle mathcolor="#3D99F6"><mi>k</mi><mo>=</mo><mn>1</mn></mstyle><mi mathvariant="normal">∞</mi></munderover><mrow><mo fence="true">⌊</mo><mfrac><mrow><mn>5</mn><mi>n</mi></mrow><msup><mn>5</mn><mi>k</mi></msup></mfrac><mo fence="true">⌋</mo></mrow><mo>=</mo><munderover><mo>∑</mo><mstyle mathcolor="#D61F06"><mi>k</mi><mo>=</mo><mn>0</mn></mstyle><mi mathvariant="normal">∞</mi></munderover><mrow><mo fence="true">⌊</mo><mfrac><mi>n</mi><msup><mn>5</mn><mi>k</mi></msup></mfrac><mo fence="true">⌋</mo></mrow><mo>=</mo><mn>2018</mn></mstyle></mrow><annotation encoding="application/x-tex">\displaystyle \sum_{\color{#3D99F6}k=1}^\infty \left \lfloor \frac {5n}{5^k} \right \rfloor = \sum_{\color{#D61F06}k=0}^\infty \left \lfloor \frac n{5^k} \right \rfloor = 2018 </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:2.9535100000000005em;vertical-align:-1.302113em;"></span><span class="mop op-limits"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.6513970000000002em;"><span style="top:-1.8478869999999998em;margin-left:0em;"><span class="pstrut" style="height:3.05em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.03148em;color:#3D99F6;">k</span><span class="mrel mtight" style="color:#3D99F6;">=</span><span class="mord mtight" style="color:#3D99F6;">1</span></span></span></span><span style="top:-3.0500049999999996em;"><span class="pstrut" style="height:3.05em;"></span><span><span class="mop op-symbol large-op">∑</span></span></span><span style="top:-4.300005em;margin-left:0em;"><span class="pstrut" style="height:3.05em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">∞</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.302113em;"><span></span></span></span></span></span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="minner"><span class="mopen delimcenter" style="top:0em;"><span class="delimsizing size3">⌊</span></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.32144em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mord">5</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7751079999999999em;"><span style="top:-2.9890000000000003em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight" style="margin-right:0.03148em;">k</span></span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">5</span><span class="mord mathdefault">n</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mclose delimcenter" style="top:0em;"><span class="delimsizing size3">⌋</span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:2.9535100000000005em;vertical-align:-1.302113em;"></span><span class="mop op-limits"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.6513970000000002em;"><span style="top:-1.8478869999999998em;margin-left:0em;"><span class="pstrut" style="height:3.05em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.03148em;color:#D61F06;">k</span><span class="mrel mtight" style="color:#D61F06;">=</span><span class="mord mtight" style="color:#D61F06;">0</span></span></span></span><span style="top:-3.0500049999999996em;"><span class="pstrut" style="height:3.05em;"></span><span><span class="mop op-symbol large-op">∑</span></span></span><span style="top:-4.300005em;margin-left:0em;"><span class="pstrut" style="height:3.05em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">∞</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.302113em;"><span></span></span></span></span></span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="minner"><span class="mopen delimcenter" style="top:0em;"><span class="delimsizing size2">⌊</span></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.10756em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mord">5</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7751079999999999em;"><span style="top:-2.9890000000000003em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight" style="margin-right:0.03148em;">k</span></span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord mathdefault">n</span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mclose delimcenter" style="top:0em;"><span class="delimsizing size2">⌋</span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">2</span><span class="mord">0</span><span class="mord">1</span><span class="mord">8</span></span></span></span>. We can estimate the value of <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>n</mi></mrow><annotation encoding="application/x-tex">n</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">n</span></span></span></span> by <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mstyle scriptlevel="0" displaystyle="true"><munderover><mo>∑</mo><mrow><mi>k</mi><mo>=</mo><mn>0</mn></mrow><mi mathvariant="normal">∞</mi></munderover><mfrac><mi>n</mi><msup><mn>5</mn><mi>k</mi></msup></mfrac><mo>=</mo><mn>2018</mn></mstyle></mrow><annotation encoding="application/x-tex">\displaystyle \sum_{k=0}^\infty \frac n{5^k} = 2018</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:2.9535100000000005em;vertical-align:-1.302113em;"></span><span class="mop op-limits"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.6513970000000002em;"><span style="top:-1.8478869999999998em;margin-left:0em;"><span class="pstrut" style="height:3.05em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.03148em;">k</span><span class="mrel mtight">=</span><span class="mord mtight">0</span></span></span></span><span style="top:-3.0500049999999996em;"><span class="pstrut" style="height:3.05em;"></span><span><span class="mop op-symbol large-op">∑</span></span></span><span style="top:-4.300005em;margin-left:0em;"><span class="pstrut" style="height:3.05em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">∞</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.302113em;"><span></span></span></span></span></span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.10756em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mord">5</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7751079999999999em;"><span style="top:-2.9890000000000003em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight" style="margin-right:0.03148em;">k</span></span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord mathdefault">n</span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">2</span><span class="mord">0</span><span class="mord">1</span><span class="mord">8</span></span></span></span> <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>  </mtext><mo>⟹</mo><mtext>  </mtext><mstyle displaystyle="true" scriptlevel="0"><mfrac><mi>n</mi><mrow><mn>1</mn><mo>−</mo><mfrac><mn>1</mn><mn>5</mn></mfrac></mrow></mfrac></mstyle><mo>=</mo><mn>2018</mn></mrow><annotation encoding="application/x-tex">\implies \dfrac n{1-\frac 15} = 2018</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.549em;vertical-align:-0.024em;"></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">⟹</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:2.1876680000000004em;vertical-align:-1.080108em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.10756em;"><span style="top:-2.2648919999999997em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">1</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.845108em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">5</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord mathdefault">n</span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.080108em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">2</span><span class="mord">0</span><span class="mord">1</span><span class="mord">8</span></span></span></span> <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>  </mtext><mo>⟹</mo><mtext>  </mtext><mstyle displaystyle="true" scriptlevel="0"><mfrac><mn>5</mn><mn>4</mn></mfrac></mstyle><mi>n</mi><mo>=</mo><mn>2018</mn></mrow><annotation encoding="application/x-tex">\implies \dfrac 54 n = 2018 </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.549em;vertical-align:-0.024em;"></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">⟹</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:2.00744em;vertical-align:-0.686em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.32144em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord">4</span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord">5</span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mord mathdefault">n</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">2</span><span class="mord">0</span><span class="mord">1</span><span class="mord">8</span></span></span></span> <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>  </mtext><mo>⟹</mo><mtext>  </mtext><mi>n</mi><mo>≈</mo><mn>1614.4</mn></mrow><annotation encoding="application/x-tex">\implies n \approx 1614.4</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.549em;vertical-align:-0.024em;"></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">⟹</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.48312em;vertical-align:0em;"></span><span class="mord mathdefault">n</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">≈</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord">6</span><span class="mord">1</span><span class="mord">4</span><span class="mord">.</span><span class="mord">4</span></span></span></span> <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>  </mtext><mo>⟹</mo><mtext>  </mtext><mi>n</mi><mo>≥</mo><mn>1615</mn></mrow><annotation encoding="application/x-tex">\implies n \ge 1615</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.549em;vertical-align:-0.024em;"></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">⟹</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.7719400000000001em;vertical-align:-0.13597em;"></span><span class="mord mathdefault">n</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">≥</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord">6</span><span class="mord">1</span><span class="mord">5</span></span></span></span>. Let <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>n</mi><mo>=</mo><mn>1615</mn><mo>+</mo><mi>a</mi></mrow><annotation encoding="application/x-tex">n=1615+a</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">n</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.72777em;vertical-align:-0.08333em;"></span><span class="mord">1</span><span class="mord">6</span><span class="mord">1</span><span class="mord">5</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">a</span></span></span></span>. Then we have:</p>
+
+<p><span class="katex"><span class="katex-mathml"><math><semantics><mtable rowspacing="0.24999999999999992em" columnalign="right left" columnspacing="0em"><mtr><mtd><mstyle scriptlevel="0" displaystyle="true"><mrow><munderover><mo>∑</mo><mrow><mi>k</mi><mo>=</mo><mn>0</mn></mrow><mi mathvariant="normal">∞</mi></munderover><mrow><mo fence="true">⌊</mo><mfrac><mi>n</mi><msup><mn>5</mn><mi>k</mi></msup></mfrac><mo fence="true">⌋</mo></mrow></mrow></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="true"><mrow><mrow></mrow><mo>=</mo><mn>2018</mn></mrow></mstyle></mtd></mtr><mtr><mtd><mstyle scriptlevel="0" displaystyle="true"><mrow><mi>n</mi><mo>+</mo><mrow><mo fence="true">⌊</mo><mfrac><mi>n</mi><mn>5</mn></mfrac><mo fence="true">⌋</mo></mrow><mo>+</mo><mrow><mo fence="true">⌊</mo><mfrac><mi>n</mi><mn>25</mn></mfrac><mo fence="true">⌋</mo></mrow><mo>+</mo><mrow><mo fence="true">⌊</mo><mfrac><mi>n</mi><mn>125</mn></mfrac><mo fence="true">⌋</mo></mrow><mo>+</mo><mrow><mo fence="true">⌊</mo><mfrac><mi>n</mi><mn>625</mn></mfrac><mo fence="true">⌋</mo></mrow></mrow></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="true"><mrow><mrow></mrow><mo>=</mo><mn>2018</mn></mrow></mstyle></mtd></mtr><mtr><mtd><mstyle scriptlevel="0" displaystyle="true"><mrow><mn>1615</mn><mo>+</mo><mi>a</mi><mo>+</mo><mrow><mo fence="true">⌊</mo><mfrac><mrow><mn>1615</mn><mo>+</mo><mi>a</mi></mrow><mn>5</mn></mfrac><mo fence="true">⌋</mo></mrow><mo>+</mo><mrow><mo fence="true">⌊</mo><mfrac><mrow><mn>1615</mn><mo>+</mo><mi>a</mi></mrow><mn>25</mn></mfrac><mo fence="true">⌋</mo></mrow><mo>+</mo><mrow><mo fence="true">⌊</mo><mfrac><mrow><mn>1615</mn><mo>+</mo><mi>a</mi></mrow><mn>125</mn></mfrac><mo fence="true">⌋</mo></mrow><mo>+</mo><mrow><mo fence="true">⌊</mo><mfrac><mrow><mn>1615</mn><mo>+</mo><mi>a</mi></mrow><mn>625</mn></mfrac><mo fence="true">⌋</mo></mrow></mrow></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="true"><mrow><mrow></mrow><mo>=</mo><mn>2018</mn></mrow></mstyle></mtd></mtr><mtr><mtd><mstyle scriptlevel="0" displaystyle="true"><mrow><mn>1615</mn><mo>+</mo><mi>a</mi><mo>+</mo><mn>323</mn><mo>+</mo><mrow><mo fence="true">⌊</mo><mfrac><mi>a</mi><mn>5</mn></mfrac><mo fence="true">⌋</mo></mrow><mo>+</mo><mn>64</mn><mo>+</mo><mrow><mo fence="true">⌊</mo><mfrac><mrow><mn>15</mn><mo>+</mo><mi>a</mi></mrow><mn>25</mn></mfrac><mo fence="true">⌋</mo></mrow><mo>+</mo><mn>12</mn><mo>+</mo><mrow><mo fence="true">⌊</mo><mfrac><mrow><mn>115</mn><mo>+</mo><mi>a</mi></mrow><mn>125</mn></mfrac><mo fence="true">⌋</mo></mrow><mo>+</mo><mn>2</mn><mo>+</mo><mrow><mo fence="true">⌊</mo><mfrac><mrow><mn>365</mn><mo>+</mo><mi>a</mi></mrow><mn>625</mn></mfrac><mo fence="true">⌋</mo></mrow></mrow></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="true"><mrow><mrow></mrow><mo>=</mo><mn>2018</mn></mrow></mstyle></mtd></mtr><mtr><mtd><mstyle scriptlevel="0" displaystyle="true"><mrow><mn>2016</mn><mo>+</mo><mi>a</mi><mo>+</mo><mrow><mo fence="true">⌊</mo><mfrac><mi>a</mi><mn>5</mn></mfrac><mo fence="true">⌋</mo></mrow><mo>+</mo><mrow><mo fence="true">⌊</mo><mfrac><mrow><mn>15</mn><mo>+</mo><mi>a</mi></mrow><mn>25</mn></mfrac><mo fence="true">⌋</mo></mrow><mo>+</mo><mrow><mo fence="true">⌊</mo><mfrac><mrow><mn>115</mn><mo>+</mo><mi>a</mi></mrow><mn>125</mn></mfrac><mo fence="true">⌋</mo></mrow><mo>+</mo><mrow><mo fence="true">⌊</mo><mfrac><mrow><mn>365</mn><mo>+</mo><mi>a</mi></mrow><mn>625</mn></mfrac><mo fence="true">⌋</mo></mrow></mrow></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="true"><mrow><mrow></mrow><mo>=</mo><mn>2018</mn></mrow></mstyle></mtd></mtr><mtr><mtd><mstyle scriptlevel="0" displaystyle="true"><mrow><mtext>  </mtext><mo>⟹</mo><mtext>  </mtext><mi>a</mi></mrow></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="true"><mrow><mrow></mrow><mo>=</mo><mn>2</mn></mrow></mstyle></mtd></mtr></mtable><annotation encoding="application/x-tex">\begin{aligned}  \sum_{k=0}^\infty \left \lfloor \frac n{5^k} \right \rfloor &amp; = 2018
+\\ n + \left \lfloor \frac n5 \right \rfloor + \left \lfloor \frac n{25} \right \rfloor + \left \lfloor \frac n{125} \right \rfloor + \left \lfloor \frac n{625} \right \rfloor &amp; = 2018
+\\ 1615 + a + \left \lfloor \frac {1615 + a}5 \right \rfloor + \left \lfloor \frac {1615 + a}{25} \right \rfloor + \left \lfloor \frac {1615 + a}{125} \right \rfloor + \left \lfloor \frac {1615 + a}{625} \right \rfloor &amp; = 2018
+\\ 1615 + a + 323 + \left \lfloor \frac a5 \right \rfloor + 64 + \left \lfloor \frac {15+a}{25} \right \rfloor + 12 + \left \lfloor \frac {115 + a}{125} \right \rfloor + 2 + \left \lfloor \frac {365 + a}{625} \right \rfloor &amp; = 2018
+\\ 2016 + a + \left \lfloor \frac a5 \right \rfloor + \left \lfloor \frac {15+a}{25} \right \rfloor + \left \lfloor \frac {115 + a}{125} \right \rfloor + \left \lfloor \frac {365 + a}{625} \right \rfloor &amp; = 2018
+\\ \implies a &amp; = 2 \end{aligned} </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:14.989600000000003em;vertical-align:-7.2448000000000015em;"></span><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:7.744800000000001em;"><span style="top:-9.744800000000001em;"><span class="pstrut" style="height:3.6513970000000002em;"></span><span class="mord"><span class="mop op-limits"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.6513970000000002em;"><span style="top:-1.8478869999999998em;margin-left:0em;"><span class="pstrut" style="height:3.05em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.03148em;">k</span><span class="mrel mtight">=</span><span class="mord mtight">0</span></span></span></span><span style="top:-3.0500049999999996em;"><span class="pstrut" style="height:3.05em;"></span><span><span class="mop op-symbol large-op">∑</span></span></span><span style="top:-4.300005em;margin-left:0em;"><span class="pstrut" style="height:3.05em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">∞</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.302113em;"><span></span></span></span></span></span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="minner"><span class="mopen delimcenter" style="top:0em;"><span class="delimsizing size2">⌊</span></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.10756em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mord">5</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7751079999999999em;"><span style="top:-2.9890000000000003em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight" style="margin-right:0.03148em;">k</span></span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord mathdefault">n</span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mclose delimcenter" style="top:0em;"><span class="delimsizing size2">⌋</span></span></span></span></span><span style="top:-6.992686999999999em;"><span class="pstrut" style="height:3.6513970000000002em;"></span><span class="mord"><span class="mord mathdefault">n</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="minner"><span class="mopen delimcenter" style="top:0em;"><span class="delimsizing size2">⌊</span></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.10756em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord">5</span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord mathdefault">n</span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mclose delimcenter" style="top:0em;"><span class="delimsizing size2">⌋</span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="minner"><span class="mopen delimcenter" style="top:0em;"><span class="delimsizing size2">⌊</span></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.10756em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">2</span><span class="mord">5</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord mathdefault">n</span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mclose delimcenter" style="top:0em;"><span class="delimsizing size2">⌋</span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="minner"><span class="mopen delimcenter" style="top:0em;"><span class="delimsizing size2">⌊</span></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.10756em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">1</span><span class="mord">2</span><span class="mord">5</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord mathdefault">n</span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mclose delimcenter" style="top:0em;"><span class="delimsizing size2">⌋</span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="minner"><span class="mopen delimcenter" style="top:0em;"><span class="delimsizing size2">⌊</span></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.10756em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">6</span><span class="mord">2</span><span class="mord">5</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord mathdefault">n</span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mclose delimcenter" style="top:0em;"><span class="delimsizing size2">⌋</span></span></span></span></span><span style="top:-4.556687em;"><span class="pstrut" style="height:3.6513970000000002em;"></span><span class="mord"><span class="mord">1</span><span class="mord">6</span><span class="mord">1</span><span class="mord">5</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord mathdefault">a</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="minner"><span class="mopen delimcenter" style="top:0em;"><span class="delimsizing size3">⌊</span></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.32144em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord">5</span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">1</span><span class="mord">6</span><span class="mord">1</span><span class="mord">5</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord mathdefault">a</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mclose delimcenter" style="top:0em;"><span class="delimsizing size3">⌋</span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="minner"><span class="mopen delimcenter" style="top:0em;"><span class="delimsizing size3">⌊</span></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.32144em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">2</span><span class="mord">5</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">1</span><span class="mord">6</span><span class="mord">1</span><span class="mord">5</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord mathdefault">a</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mclose delimcenter" style="top:0em;"><span class="delimsizing size3">⌋</span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="minner"><span class="mopen delimcenter" style="top:0em;"><span class="delimsizing size3">⌊</span></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.32144em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">1</span><span class="mord">2</span><span class="mord">5</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">1</span><span class="mord">6</span><span class="mord">1</span><span class="mord">5</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord mathdefault">a</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mclose delimcenter" style="top:0em;"><span class="delimsizing size3">⌋</span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="minner"><span class="mopen delimcenter" style="top:0em;"><span class="delimsizing size3">⌊</span></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.32144em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">6</span><span class="mord">2</span><span class="mord">5</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">1</span><span class="mord">6</span><span class="mord">1</span><span class="mord">5</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord mathdefault">a</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mclose delimcenter" style="top:0em;"><span class="delimsizing size3">⌋</span></span></span></span></span><span style="top:-1.8566569999999998em;"><span class="pstrut" style="height:3.6513970000000002em;"></span><span class="mord"><span class="mord">1</span><span class="mord">6</span><span class="mord">1</span><span class="mord">5</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord mathdefault">a</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord">3</span><span class="mord">2</span><span class="mord">3</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="minner"><span class="mopen delimcenter" style="top:0em;"><span class="delimsizing size2">⌊</span></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.10756em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord">5</span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord mathdefault">a</span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mclose delimcenter" style="top:0em;"><span class="delimsizing size2">⌋</span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord">6</span><span class="mord">4</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="minner"><span class="mopen delimcenter" style="top:0em;"><span class="delimsizing size3">⌊</span></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.32144em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">2</span><span class="mord">5</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">1</span><span class="mord">5</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord mathdefault">a</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mclose delimcenter" style="top:0em;"><span class="delimsizing size3">⌋</span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord">1</span><span class="mord">2</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="minner"><span class="mopen delimcenter" style="top:0em;"><span class="delimsizing size3">⌊</span></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.32144em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">1</span><span class="mord">2</span><span class="mord">5</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">1</span><span class="mord">1</span><span class="mord">5</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord mathdefault">a</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mclose delimcenter" style="top:0em;"><span class="delimsizing size3">⌋</span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord">2</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="minner"><span class="mopen delimcenter" style="top:0em;"><span class="delimsizing size3">⌊</span></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.32144em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">6</span><span class="mord">2</span><span class="mord">5</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">3</span><span class="mord">6</span><span class="mord">5</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord mathdefault">a</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mclose delimcenter" style="top:0em;"><span class="delimsizing size3">⌋</span></span></span></span></span><span style="top:0.8433730000000002em;"><span class="pstrut" style="height:3.6513970000000002em;"></span><span class="mord"><span class="mord">2</span><span class="mord">0</span><span class="mord">1</span><span class="mord">6</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord mathdefault">a</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="minner"><span class="mopen delimcenter" style="top:0em;"><span class="delimsizing size2">⌊</span></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.10756em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord">5</span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord mathdefault">a</span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mclose delimcenter" style="top:0em;"><span class="delimsizing size2">⌋</span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="minner"><span class="mopen delimcenter" style="top:0em;"><span class="delimsizing size3">⌊</span></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.32144em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">2</span><span class="mord">5</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">1</span><span class="mord">5</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord mathdefault">a</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mclose delimcenter" style="top:0em;"><span class="delimsizing size3">⌋</span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="minner"><span class="mopen delimcenter" style="top:0em;"><span class="delimsizing size3">⌊</span></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.32144em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">1</span><span class="mord">2</span><span class="mord">5</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">1</span><span class="mord">1</span><span class="mord">5</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord mathdefault">a</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mclose delimcenter" style="top:0em;"><span class="delimsizing size3">⌋</span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="minner"><span class="mopen delimcenter" style="top:0em;"><span class="delimsizing size3">⌊</span></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.32144em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">6</span><span class="mord">2</span><span class="mord">5</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord">3</span><span class="mord">6</span><span class="mord">5</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mord mathdefault">a</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mclose delimcenter" style="top:0em;"><span class="delimsizing size3">⌋</span></span></span></span></span><span style="top:2.933403000000001em;"><span class="pstrut" style="height:3.6513970000000002em;"></span><span class="mord"><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">⟹</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mord mathdefault">a</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:7.2448000000000015em;"><span></span></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:7.744800000000001em;"><span style="top:-9.744800000000001em;"><span class="pstrut" style="height:3.6513970000000002em;"></span><span class="mord"><span class="mord"></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mord">2</span><span class="mord">0</span><span class="mord">1</span><span class="mord">8</span></span></span><span style="top:-6.992686999999999em;"><span class="pstrut" style="height:3.6513970000000002em;"></span><span class="mord"><span class="mord"></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mord">2</span><span class="mord">0</span><span class="mord">1</span><span class="mord">8</span></span></span><span style="top:-4.556687em;"><span class="pstrut" style="height:3.6513970000000002em;"></span><span class="mord"><span class="mord"></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mord">2</span><span class="mord">0</span><span class="mord">1</span><span class="mord">8</span></span></span><span style="top:-1.8566569999999998em;"><span class="pstrut" style="height:3.6513970000000002em;"></span><span class="mord"><span class="mord"></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mord">2</span><span class="mord">0</span><span class="mord">1</span><span class="mord">8</span></span></span><span style="top:0.8433730000000002em;"><span class="pstrut" style="height:3.6513970000000002em;"></span><span class="mord"><span class="mord"></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mord">2</span><span class="mord">0</span><span class="mord">1</span><span class="mord">8</span></span></span><span style="top:2.933403000000001em;"><span class="pstrut" style="height:3.6513970000000002em;"></span><span class="mord"><span class="mord"></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mord">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:7.2448000000000015em;"><span></span></span></span></span></span></span></span></span></span></span></p>
+
+<p>Therefore, <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>n</mi><mo>=</mo><mn>1615</mn><mo>+</mo><mn>2</mn><mo>=</mo><menclose notation="box"><mstyle scriptlevel="0" displaystyle="false"><mstyle scriptlevel="0" displaystyle="true"><mn>1617</mn></mstyle></mstyle></menclose></mrow><annotation encoding="application/x-tex">n = 1615 + 2 = \boxed{1617}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">n</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.72777em;vertical-align:-0.08333em;"></span><span class="mord">1</span><span class="mord">6</span><span class="mord">1</span><span class="mord">5</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">2</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1.32444em;vertical-align:-0.33999999999999997em;"></span><span class="mord"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.9844400000000001em;"><span style="top:-3.32444em;"><span class="pstrut" style="height:3.32444em;"></span><span class="mord boxpad"><span class="mord"><span class="mord">1</span><span class="mord">6</span><span class="mord">1</span><span class="mord">7</span></span></span></span><span style="top:-2.98444em;"><span class="pstrut" style="height:3.32444em;"></span><span class="stretchy fbox" style="height:1.32444em;"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.33999999999999997em;"><span></span></span></span></span></span></span></span></span>.</p>
+
+                                    
+                                
+                            </div>
+                        
+                    
+                </div>
+            </div>
+
+
+            
+            
+            
+                
+                    <div class="solution-footer hide-on-edit hide-on-delete row">
+                        
+                        
+                            
+                                
+                                
+                                <div class="reactions">
+                                    <span class="helpful">6 Helpful</span>
+                                    <span class="interesting">0 Interesting</span>
+                                    <span class="brilliant">0 Brilliant</span>
+                                    <span class="confused">0 Confused</span>
+                                </div>
+                                
+                            
+                        
+                    </div>
+                
+
+            
+
+
+
+            
+            
+
+        </div>
+
+        
+        
+
+
+        
+    </div>
+
+
+    
+    
+    
+        
+            <div class="discsol-comments comment-wrapper hide-form row">
+                
+                    <div class="cmp_29aa1ee50af32941ceb5916939eebfb7_id">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/template" id="comment-form-template">
+    <form method="post" action="https://brilliant.org/problems/2018-0s/&lt;%=&#32;formUrl&#32;%&gt;"
+        class="comment-form<%- formName === 'edit_comment' ? ' edit-form' : '' %> clearfix row"
+        id="<%= formId %>"
+        data-controller="util/mathjax_loader:formPreloader">
+
+            <input type="hidden" name="csrfmiddlewaretoken" value="L908OKK8LS3DX4qtZIw8bSsUENchaaNnuX79va0E0I9Ub9VwbPyhWvP2Kh5fGhKw">
+
+            <input type="hidden" name="form_name" value="<%= formName %>">
+            <input type="hidden" name="page_key" value="assessment_public_solvable_logged_in">
+            <input type="hidden" name="version" value="<%- version %>">
+            <% if (commentId && !formIdParentId) { %>
+                <input type="hidden" name="existing_comment_id" value="<%- commentId %>">
+            <% } %>
+            <% if (paramKey) { %>
+                <input type="hidden" name="param_key" value="<%= paramKey %>">
+            <% } %>
+            <input type="hidden" name="parent_id" value="<%= parentId %>">
+
+            
+
+            <fieldset class="editor"
+                data-controller="util/autosave:controller"
+                data-autosave-key="<%= autosaveKey %>"
+                data-autosave-hours="3"
+                data-autosave-field="comment"
+                data-autosave-user="gTlCC4o6R8QzJ8FFw1BEZ0tfaYra2gtu">
+                    <p>
+                        <label for="id_text_<%- commentId %>">Text:</label>
+                        <textarea id="id_text_<%- commentId %>"
+                            placeholder="add a comment..."
+                            rows="1"
+                            cols="40"
+                            spellcheck="true"
+                            name="text"
+                            class="expand"><%- commentText %></textarea>
+                    </p>
+                    <%= errors %>
+            </fieldset>
+
+            <div class="comment-form-buttons col col-1">
+                
+                    <% if (topLevelDiscCommentForm) { %>
+                        <button type="submit" class="btn btn-accent btn-gray col col-1 col-last autosave-submit">Post</button>
+                        <a href="https://brilliant.org/math-formatting-guide/"
+                           class="formatting-guide-link"
+                           data-controller="app/comments:formattingGuideLink"
+                           data-target="#disc-formatting-guide">
+                                Formatting guide</a>
+                    <% } else { %>
+                        
+                            <button type="submit" class="btn btn-accent btn-gray col col-1 col-last autosave-submit">Post</button>
+                            <a href="2018-0s.html#" class="cancel-edit-trigger col col-1 col-last<%- isEditingThis || commentFormSuccess ? ' hide' : '' %>">Cancel</a>
+                            
+                        
+                    <% } %>
+                
+            </div>
+    </form>
+</script>
+
+
+
+<div class="discsol-comments-wrapper row" id="comment-list-192465">
+
+    <a name="comments"></a>
+    
+
+    
+
+        <div class="disc-comments row" data-highlighted-comment-id="">
+
+            <div class="cmmnt-container level-0 clearfix row solcomment" data-level="0">
+
+                
+
+            </div> 
+        </div>
+    
+    
+</div>
+
+
+</div>
+                
+            </div>
+        
+    
+    
+
+</div> 
+
+        
+            
+            
+
+
+
+
+
+
+
+
+<div
+    class="discsol-post-wrapper row "
+    
+>
+    <div id="post-192309" class="discsol-post solution cmmnt row clearfix has-text-formatting-bar">
+        <div class="solution-main row">
+
+            
+                
+                    
+                        <div class="solution-header with-actions row">
+
+                            
+                                <div class="avatar mini-profile">
+                                    
+                                        <img src="../../brioche/avatars-2/resized/45/d83b7458edbdd9254af5d9dfac61cc1a.d83b7458edbdd9254af5d9dfac61cc1a.jpg?width=45" alt="" width="45" height="45">
+                                    
+                                </div>
+
+                                <div class="text"><div>
+                                        
+                                            <a href="https://brilliant.org/profile/naren-ol185c/"
+                                                rel="nofollow"
+                                                class="btn-profile mini-profile"
+                                                data-id="df3yQqq1Hk45tfQo5eCoouu6PWzLFV9y"
+                                                data-controller="app/mini_profiles:controller">
+                                                    Naren Bhandari
+                                            </a>
+                                        
+                                        
+                                        <br>
+                                        
+                                            <span title="April 26, 2018, 8:30 a.m.">Apr 26, 2018</span>
+                                        
+                                </div></div>
+                            
+
+                            
+                            
+                            
+                        </div>
+                    
+                
+            
+
+            <div class="edit-subscribe hide-on-edit hide-on-delete">
+                
+                
+
+                
+                
+
+                
+            </div>
+
+
+            
+
+            <div class="comment-content solution-content row">
+                <div class="hide-on-edit hide-on-delete row">
+                    
+
+                        
+                        
+                            <div class="text">
+                                
+                                
+                                
+                                    
+                                        <p>Suppose that <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo stretchy="false">(</mo><mn>5</mn><mi>n</mi><mo stretchy="false">)</mo><mo stretchy="false">!</mo><mo>=</mo><mi>k</mi><mo stretchy="false">!</mo></mrow><annotation encoding="application/x-tex">(5n)! = k!</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord">5</span><span class="mord mathdefault">n</span><span class="mclose">)</span><span class="mclose">!</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.03148em;">k</span><span class="mclose">!</span></span></span></span> where <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>k</mi></mrow><annotation encoding="application/x-tex">k</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.03148em;">k</span></span></span></span> is any natural number.  We are given that <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>k</mi><mo stretchy="false">!</mo></mrow><annotation encoding="application/x-tex">k!</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.03148em;">k</span><span class="mclose">!</span></span></span></span> has <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>2018</mn><mo>=</mo><mi>e</mi></mrow><annotation encoding="application/x-tex">2018 = e</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">2</span><span class="mord">0</span><span class="mord">1</span><span class="mord">8</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">e</span></span></span></span> zeros.  We can make notice that <span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>k</mi><mo>&gt;</mo><mn>4</mn><mi>e</mi><mtext>  </mtext><mo>⟹</mo><mtext>  </mtext><mi>k</mi><mo>&gt;</mo><mn>4</mn><mo>⋅</mo><mn>2018</mn><mtext>  </mtext><mo>⟹</mo><mtext>  </mtext><mi>k</mi><mo>&gt;</mo><mn>8072</mn></mrow><annotation encoding="application/x-tex"> k &gt; 4e \implies k  &gt; 4\cdot 2018 \implies  k &gt;  8072</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.73354em;vertical-align:-0.0391em;"></span><span class="mord mathdefault" style="margin-right:0.03148em;">k</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">&gt;</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.66844em;vertical-align:-0.024em;"></span><span class="mord">4</span><span class="mord mathdefault">e</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">⟹</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.73354em;vertical-align:-0.0391em;"></span><span class="mord mathdefault" style="margin-right:0.03148em;">k</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">&gt;</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">4</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">⋅</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.66844em;vertical-align:-0.024em;"></span><span class="mord">2</span><span class="mord">0</span><span class="mord">1</span><span class="mord">8</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">⟹</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.73354em;vertical-align:-0.0391em;"></span><span class="mord mathdefault" style="margin-right:0.03148em;">k</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">&gt;</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">8</span><span class="mord">0</span><span class="mord">7</span><span class="mord">2</span></span></span></span></span> 
+Since <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>k</mi></mrow><annotation encoding="application/x-tex">k</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.03148em;">k</span></span></span></span> is the multiple of <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>5</mn></mrow><annotation encoding="application/x-tex">5</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">5</span></span></span></span> so <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>8075</mn><mo>≤</mo><mi>k</mi><mo>≤</mo><mn>8085</mn></mrow><annotation encoding="application/x-tex">8075 \leq  k \leq 8085</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.78041em;vertical-align:-0.13597em;"></span><span class="mord">8</span><span class="mord">0</span><span class="mord">7</span><span class="mord">5</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">≤</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.83041em;vertical-align:-0.13597em;"></span><span class="mord mathdefault" style="margin-right:0.03148em;">k</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">≤</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">8</span><span class="mord">0</span><span class="mord">8</span><span class="mord">5</span></span></span></span> or <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mstyle mathsize="0.9em"><mn>8075</mn><mo>≤</mo><mi>k</mi><mo>≤</mo><mn>1617</mn><mo>⋅</mo><mn>5</mn><mtext>  </mtext><mo>⟹</mo><mtext>  </mtext><mi>k</mi><mo stretchy="false">!</mo><mo>≤</mo><mo stretchy="false">(</mo><mn>5</mn><mo>⋅</mo><mn>1617</mn><mo stretchy="false">)</mo><mo stretchy="false">!</mo><mo>=</mo><mo stretchy="false">(</mo><mn>5</mn><mi>n</mi><mo stretchy="false">)</mo><mo stretchy="false">!</mo></mstyle></mrow><annotation encoding="application/x-tex">\small 8075\leq k \leq 1617\cdot 5\implies k! \leq  (5\cdot 1617)! = (5n)!</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.702369em;vertical-align:-0.12237300000000001em;"></span><span class="mord sizing reset-size6 size5">8</span><span class="mord sizing reset-size6 size5">0</span><span class="mord sizing reset-size6 size5">7</span><span class="mord sizing reset-size6 size5">5</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel sizing reset-size6 size5">≤</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.747369em;vertical-align:-0.12237300000000001em;"></span><span class="mord mathdefault sizing reset-size6 size5" style="margin-right:0.03148em;">k</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel sizing reset-size6 size5">≤</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.5799960000000001em;vertical-align:0em;"></span><span class="mord sizing reset-size6 size5">1</span><span class="mord sizing reset-size6 size5">6</span><span class="mord sizing reset-size6 size5">1</span><span class="mord sizing reset-size6 size5">7</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin sizing reset-size6 size5">⋅</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.601596em;vertical-align:-0.0216em;"></span><span class="mord sizing reset-size6 size5">5</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mspace sizing reset-size6 size5" style="margin-right:0.2777777777777778em;"></span><span class="mrel sizing reset-size6 size5">⟹</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mspace sizing reset-size6 size5" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.747369em;vertical-align:-0.12237300000000001em;"></span><span class="mord mathdefault sizing reset-size6 size5" style="margin-right:0.03148em;">k</span><span class="mclose sizing reset-size6 size5">!</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel sizing reset-size6 size5">≤</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.9em;vertical-align:-0.225em;"></span><span class="mopen sizing reset-size6 size5">(</span><span class="mord sizing reset-size6 size5">5</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin sizing reset-size6 size5">⋅</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.9em;vertical-align:-0.225em;"></span><span class="mord sizing reset-size6 size5">1</span><span class="mord sizing reset-size6 size5">6</span><span class="mord sizing reset-size6 size5">1</span><span class="mord sizing reset-size6 size5">7</span><span class="mclose sizing reset-size6 size5">)</span><span class="mclose sizing reset-size6 size5">!</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel sizing reset-size6 size5">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.9em;vertical-align:-0.225em;"></span><span class="mopen sizing reset-size6 size5">(</span><span class="mord sizing reset-size6 size5">5</span><span class="mord mathdefault sizing reset-size6 size5">n</span><span class="mclose sizing reset-size6 size5">)</span><span class="mclose sizing reset-size6 size5">!</span></span></span></span>. Therefore the required value of <span class="katex"><span class="katex-mathml"><math><semantics><mrow><menclose notation="box"><mstyle scriptlevel="0" displaystyle="false"><mstyle scriptlevel="0" displaystyle="true"><mrow><mi>n</mi><mo>=</mo><mn>1617</mn></mrow></mstyle></mstyle></menclose></mrow><annotation encoding="application/x-tex">\boxed{n=1617}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.32444em;vertical-align:-0.33999999999999997em;"></span><span class="mord"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.9844400000000001em;"><span style="top:-3.32444em;"><span class="pstrut" style="height:3.32444em;"></span><span class="mord boxpad"><span class="mord"><span class="mord mathdefault">n</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mord">1</span><span class="mord">6</span><span class="mord">1</span><span class="mord">7</span></span></span></span><span style="top:-2.98444em;"><span class="pstrut" style="height:3.32444em;"></span><span class="stretchy fbox" style="height:1.32444em;"></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.33999999999999997em;"><span></span></span></span></span></span></span></span></span>.</p>
+
+                                    
+                                
+                            </div>
+                        
+                    
+                </div>
+            </div>
+
+
+            
+            
+            
+                
+                    <div class="solution-footer hide-on-edit hide-on-delete row">
+                        
+                        
+                            
+                                
+                                
+                                <div class="reactions">
+                                    <span class="helpful">1 Helpful</span>
+                                    <span class="interesting">0 Interesting</span>
+                                    <span class="brilliant">0 Brilliant</span>
+                                    <span class="confused">0 Confused</span>
+                                </div>
+                                
+                            
+                        
+                    </div>
+                
+
+            
+
+
+
+            
+            
+
+        </div>
+
+        
+        
+
+
+        
+    </div>
+
+
+    
+    
+    
+        
+            <div class="discsol-comments comment-wrapper hide-form row">
+                
+                    <div class="cmp_efe8f86cce0ec9311cdbbd52c0334c9a_id">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/template" id="comment-form-template">
+    <form method="post" action="https://brilliant.org/problems/2018-0s/&lt;%=&#32;formUrl&#32;%&gt;"
+        class="comment-form<%- formName === 'edit_comment' ? ' edit-form' : '' %> clearfix row"
+        id="<%= formId %>"
+        data-controller="util/mathjax_loader:formPreloader">
+
+            <input type="hidden" name="csrfmiddlewaretoken" value="N5yFr5erRff5UYUFcC2xsGIikaUc9StKwTFG8vuX65lm83pIoJ4Gdj5qqENaFZqT">
+
+            <input type="hidden" name="form_name" value="<%= formName %>">
+            <input type="hidden" name="page_key" value="assessment_public_solvable_logged_in">
+            <input type="hidden" name="version" value="<%- version %>">
+            <% if (commentId && !formIdParentId) { %>
+                <input type="hidden" name="existing_comment_id" value="<%- commentId %>">
+            <% } %>
+            <% if (paramKey) { %>
+                <input type="hidden" name="param_key" value="<%= paramKey %>">
+            <% } %>
+            <input type="hidden" name="parent_id" value="<%= parentId %>">
+
+            
+
+            <fieldset class="editor"
+                data-controller="util/autosave:controller"
+                data-autosave-key="<%= autosaveKey %>"
+                data-autosave-hours="3"
+                data-autosave-field="comment"
+                data-autosave-user="gTlCC4o6R8QzJ8FFw1BEZ0tfaYra2gtu">
+                    <p>
+                        <label for="id_text_<%- commentId %>">Text:</label>
+                        <textarea id="id_text_<%- commentId %>"
+                            placeholder="add a comment..."
+                            rows="1"
+                            cols="40"
+                            spellcheck="true"
+                            name="text"
+                            class="expand"><%- commentText %></textarea>
+                    </p>
+                    <%= errors %>
+            </fieldset>
+
+            <div class="comment-form-buttons col col-1">
+                
+                    <% if (topLevelDiscCommentForm) { %>
+                        <button type="submit" class="btn btn-accent btn-gray col col-1 col-last autosave-submit">Post</button>
+                        <a href="https://brilliant.org/math-formatting-guide/"
+                           class="formatting-guide-link"
+                           data-controller="app/comments:formattingGuideLink"
+                           data-target="#disc-formatting-guide">
+                                Formatting guide</a>
+                    <% } else { %>
+                        
+                            <button type="submit" class="btn btn-accent btn-gray col col-1 col-last autosave-submit">Post</button>
+                            <a href="2018-0s.html#" class="cancel-edit-trigger col col-1 col-last<%- isEditingThis || commentFormSuccess ? ' hide' : '' %>">Cancel</a>
+                            
+                        
+                    <% } %>
+                
+            </div>
+    </form>
+</script>
+
+
+
+<div class="discsol-comments-wrapper row" id="comment-list-192309">
+
+    <a name="comments"></a>
+    
+
+    
+
+        <div class="disc-comments row" data-highlighted-comment-id="">
+
+            <div class="cmmnt-container level-0 clearfix row solcomment" data-level="0">
+
+                
+
+            </div> 
+        </div>
+    
+    
+</div>
+
+
+</div>
+                
+            </div>
+        
+    
+    
+
+</div> 
+
+        
+            
+            
+
+
+
+
+
+
+
+
+<div
+    class="discsol-post-wrapper row "
+    
+>
+    <div id="post-192241" class="discsol-post solution cmmnt row clearfix has-text-formatting-bar">
+        <div class="solution-main row">
+
+            
+                
+                    
+                        <div class="solution-header with-actions row">
+
+                            
+                                <div class="avatar mini-profile">
+                                    
+                                        <img src="../../brioche/avatars-2/resized/45/9b048175edbf0f17fc9c277f960af0e6.a48aeb1e5e-oOAxyj5Jvv.jpg?width=45" alt="" width="45" height="45">
+                                    
+                                </div>
+
+                                <div class="text"><div>
+                                        
+                                            <a href="https://brilliant.org/profile/ossama-jm61yw/"
+                                                rel="nofollow"
+                                                class="btn-profile mini-profile"
+                                                data-id="YcW9S99CQF9UXyW7OheJTSAolLrgMeQ3"
+                                                data-controller="app/mini_profiles:controller">
+                                                    Ossama Ismail
+                                            </a>
+                                        
+                                        
+                                        <br>
+                                        
+                                            <span title="April 25, 2018, 6:13 a.m.">Apr 25, 2018</span>
+                                        
+                                </div></div>
+                            
+
+                            
+                            
+                            
+                        </div>
+                    
+                
+            
+
+            <div class="edit-subscribe hide-on-edit hide-on-delete">
+                
+                
+
+                
+                
+
+                
+            </div>
+
+
+            
+
+            <div class="comment-content solution-content row">
+                <div class="hide-on-edit hide-on-delete row">
+                    
+
+                        
+                        
+                            <div class="text">
+                                
+                                
+                                
+                                    
+                                        <p>No. of zeroes at  the end of  <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>5</mn><mi>n</mi><mo stretchy="false">!</mo><mo>=</mo></mrow><annotation encoding="application/x-tex"> 5n! = </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord">5</span><span class="mord mathdefault">n</span><span class="mclose">!</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span></span></span></span> numner of 5's and its multiples  = <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo stretchy="false">⌊</mo><mfrac><mrow><mn>5</mn><mi>n</mi></mrow><mn>5</mn></mfrac><mo stretchy="false">⌋</mo><mo>+</mo><mo stretchy="false">⌊</mo><mfrac><mrow><mn>5</mn><mi>n</mi></mrow><msup><mn>5</mn><mn>2</mn></msup></mfrac><mo stretchy="false">⌋</mo><mo>+</mo><mo>⋯</mo><mo>+</mo><mo stretchy="false">⌊</mo><mfrac><mrow><mn>5</mn><mi>n</mi></mrow><msup><mn>5</mn><mi>k</mi></msup></mfrac><mo stretchy="false">⌋</mo><mo>=</mo><mn>5</mn><mi>n</mi><mo>×</mo><msubsup><mo>∑</mo><mi>k</mi><mn>1</mn></msubsup><mfrac><mn>1</mn><msup><mn>5</mn><mi>k</mi></msup></mfrac><mo>=</mo><mn>2018</mn></mrow><annotation encoding="application/x-tex"> \lfloor \frac{5n}{5} \rfloor + \lfloor \frac{5n}{5^2} \rfloor + \cdots + \lfloor \frac{5n}{5^k}   \rfloor  = 5n \times \sum^1_k \frac{1}{5^k} =2018 </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.190108em;vertical-align:-0.345em;"></span><span class="mopen">⌊</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.845108em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">5</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">5</span><span class="mord mathdefault mtight">n</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mclose">⌋</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1.190108em;vertical-align:-0.345em;"></span><span class="mopen">⌊</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.845108em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mtight">5</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7463142857142857em;"><span style="top:-2.786em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">5</span><span class="mord mathdefault mtight">n</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mclose">⌋</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.66666em;vertical-align:-0.08333em;"></span><span class="minner">⋯</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1.2025279999999998em;vertical-align:-0.3574199999999999em;"></span><span class="mopen">⌊</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.845108em;"><span style="top:-2.64258em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mtight">5</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7820285714285713em;"><span style="top:-2.786em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mathdefault mtight" style="margin-right:0.03148em;">k</span></span></span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">5</span><span class="mord mathdefault mtight">n</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.3574199999999999em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mclose">⌋</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.72777em;vertical-align:-0.08333em;"></span><span class="mord">5</span><span class="mord mathdefault">n</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1.3114279999999998em;vertical-align:-0.3574199999999999em;"></span><span class="mop"><span class="mop op-symbol small-op" style="position:relative;top:-0.0000050000000000050004em;">∑</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.954008em;"><span style="top:-2.40029em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight" style="margin-right:0.03148em;">k</span></span></span><span style="top:-3.2029em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.29971000000000003em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.845108em;"><span style="top:-2.64258em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mtight">5</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7820285714285713em;"><span style="top:-2.786em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mathdefault mtight" style="margin-right:0.03148em;">k</span></span></span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.3574199999999999em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">2</span><span class="mord">0</span><span class="mord">1</span><span class="mord">8</span></span></span></span> </p>
+
+<p>Set <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>k</mi><mo>=</mo><mi>inf</mi><mo>⁡</mo></mrow><annotation encoding="application/x-tex"> k =  \inf </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.03148em;">k</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mop">in<span style="margin-right:0.07778em;">f</span></span></span></span></span> and slove to find the value of <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>n</mi></mrow><annotation encoding="application/x-tex"> n</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">n</span></span></span></span>.</p>
+
+                                    
+                                
+                            </div>
+                        
+                    
+                </div>
+            </div>
+
+
+            
+            
+            
+                
+                    <div class="solution-footer hide-on-edit hide-on-delete row">
+                        
+                        
+                            
+                                
+                                
+                                <div class="reactions">
+                                    <span class="helpful">1 Helpful</span>
+                                    <span class="interesting">0 Interesting</span>
+                                    <span class="brilliant">0 Brilliant</span>
+                                    <span class="confused">0 Confused</span>
+                                </div>
+                                
+                            
+                        
+                    </div>
+                
+
+            
+
+
+
+            
+            
+
+        </div>
+
+        
+        
+
+
+        
+    </div>
+
+
+    
+    
+    
+        
+            <div class="discsol-comments comment-wrapper hide-form row">
+                
+                    <div class="cmp_79afa21daee4775398cb458e4e234be1_id">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/template" id="comment-form-template">
+    <form method="post" action="https://brilliant.org/problems/2018-0s/&lt;%=&#32;formUrl&#32;%&gt;"
+        class="comment-form<%- formName === 'edit_comment' ? ' edit-form' : '' %> clearfix row"
+        id="<%= formId %>"
+        data-controller="util/mathjax_loader:formPreloader">
+
+            <input type="hidden" name="csrfmiddlewaretoken" value="TjZeljx9V8wpVebh1EbZxJ11l6fT4q6dC76f2JNFaYCG9jGkdLd8imo9rA8RAx3m">
+
+            <input type="hidden" name="form_name" value="<%= formName %>">
+            <input type="hidden" name="page_key" value="assessment_public_solvable_logged_in">
+            <input type="hidden" name="version" value="<%- version %>">
+            <% if (commentId && !formIdParentId) { %>
+                <input type="hidden" name="existing_comment_id" value="<%- commentId %>">
+            <% } %>
+            <% if (paramKey) { %>
+                <input type="hidden" name="param_key" value="<%= paramKey %>">
+            <% } %>
+            <input type="hidden" name="parent_id" value="<%= parentId %>">
+
+            
+
+            <fieldset class="editor"
+                data-controller="util/autosave:controller"
+                data-autosave-key="<%= autosaveKey %>"
+                data-autosave-hours="3"
+                data-autosave-field="comment"
+                data-autosave-user="gTlCC4o6R8QzJ8FFw1BEZ0tfaYra2gtu">
+                    <p>
+                        <label for="id_text_<%- commentId %>">Text:</label>
+                        <textarea id="id_text_<%- commentId %>"
+                            placeholder="add a comment..."
+                            rows="1"
+                            cols="40"
+                            spellcheck="true"
+                            name="text"
+                            class="expand"><%- commentText %></textarea>
+                    </p>
+                    <%= errors %>
+            </fieldset>
+
+            <div class="comment-form-buttons col col-1">
+                
+                    <% if (topLevelDiscCommentForm) { %>
+                        <button type="submit" class="btn btn-accent btn-gray col col-1 col-last autosave-submit">Post</button>
+                        <a href="https://brilliant.org/math-formatting-guide/"
+                           class="formatting-guide-link"
+                           data-controller="app/comments:formattingGuideLink"
+                           data-target="#disc-formatting-guide">
+                                Formatting guide</a>
+                    <% } else { %>
+                        
+                            <button type="submit" class="btn btn-accent btn-gray col col-1 col-last autosave-submit">Post</button>
+                            <a href="2018-0s.html#" class="cancel-edit-trigger col col-1 col-last<%- isEditingThis || commentFormSuccess ? ' hide' : '' %>">Cancel</a>
+                            
+                        
+                    <% } %>
+                
+            </div>
+    </form>
+</script>
+
+
+
+<div class="discsol-comments-wrapper row" id="comment-list-192241">
+
+    <a name="comments"></a>
+    
+
+    
+
+        <div class="disc-comments row" data-highlighted-comment-id="">
+
+            <div class="cmmnt-container level-0 clearfix row solcomment" data-level="0">
+
+                
+
+            </div> 
+        </div>
+    
+    
+</div>
+
+
+</div>
+                
+            </div>
+        
+    
+    
+
+</div> 
+
+        
+            
+            
+
+
+
+
+
+
+
+
+<div
+    class="discsol-post-wrapper row "
+    
+>
+    <div id="post-192379" class="discsol-post solution cmmnt row clearfix has-text-formatting-bar">
+        <div class="solution-main row">
+
+            
+                
+                    
+                        <div class="solution-header with-actions row">
+
+                            
+                                <div class="avatar mini-profile">
+                                    
+                                        <img src="../../brioche/avatars-2/resized/45/36d45f48de98b7f8ca1457c7bbc4f300.ecf97b9d14-bi4LxI4OrP.jpg?width=45" alt="" width="45" height="45">
+                                    
+                                </div>
+
+                                <div class="text"><div>
+                                        
+                                            <a href="https://brilliant.org/profile/zeeshan-bv4pcn/"
+                                                rel="nofollow"
+                                                class="btn-profile mini-profile"
+                                                data-id="aiR3ylxH6Y5YSTxs4eRUk7yvv6MPmVWq"
+                                                data-controller="app/mini_profiles:controller">
+                                                    Zeeshan Ali
+                                            </a>
+                                        
+                                        
+                                        <br>
+                                        
+                                            <span title="April 27, 2018, 9:17 a.m.">Apr 27, 2018</span>
+                                        
+                                </div></div>
+                            
+
+                            
+                            
+                            
+                        </div>
+                    
+                
+            
+
+            <div class="edit-subscribe hide-on-edit hide-on-delete">
+                
+                
+
+                
+                
+
+                
+            </div>
+
+
+            
+
+            <div class="comment-content solution-content row">
+                <div class="hide-on-edit hide-on-delete row">
+                    
+
+                        
+                        
+                            <div class="text">
+                                
+                                
+                                
+                                    
+                                        <div class="codex-static-code" data-controller="app/codex/controllers:expandableCode"><button class="codex-expand-toggle" style="display:none;"></button><table class="has-lang codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4
+5
+6
+7</pre></div></td><td class="code"><div class="has-lang codehilite"><pre><span></span><code data-lang="Python"><span class="n">A</span> <span class="o">=</span> <span class="p">{};</span> <span class="n">A</span><span class="p">[</span><span class="s2">&quot;1&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span> <span class="n">naturalNumber</span> <span class="o">=</span> <span class="mi">2</span><span class="p">;</span> <span class="n">numOfZeros</span> <span class="o">=</span> <span class="mi">2018</span>
+<span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
+    <span class="n">A</span><span class="p">[</span><span class="nb">str</span><span class="p">(</span><span class="n">naturalNumber</span><span class="p">)]</span> <span class="o">=</span> <span class="n">A</span><span class="p">[</span><span class="nb">str</span><span class="p">(</span><span class="n">naturalNumber</span><span class="o">-</span><span class="mi">1</span><span class="p">)]</span> <span class="o">*</span> <span class="n">naturalNumber</span>
+    <span class="k">if</span> <span class="nb">int</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">A</span><span class="p">[</span><span class="nb">str</span><span class="p">(</span><span class="n">naturalNumber</span><span class="p">)])[</span><span class="o">-</span><span class="n">numOfZeros</span><span class="p">:])</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="k">break</span>
+    <span class="n">naturalNumber</span> <span class="o">+=</span> <span class="mi">1</span>
+<span class="nb">print</span> <span class="p">(</span><span class="s2">&quot;5(&quot;</span><span class="o">+</span><span class="nb">str</span><span class="p">(</span><span class="n">naturalNumber</span><span class="o">//</span><span class="mi">5</span><span class="p">)</span><span class="o">+</span><span class="s2">&quot;)!=&quot;</span><span class="p">,</span> <span class="n">A</span><span class="p">[</span><span class="nb">str</span><span class="p">(</span><span class="n">naturalNumber</span><span class="p">)])</span>
+</code></pre></div>
+
+<p></td></tr></table></div></p>
+
+<div class="codex-static-code" data-controller="app/codex/controllers:expandableCode"><button class="codex-expand-toggle" style="display:none;"></button><table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="codehilite"><pre><span></span><code>5(1617)!=47319945396474687058234188631866578916158489540685803751686865428432086652402374334760439114628840757369654695395721943850636055064573150668884967728341488974164944682103928530368952226105387907253277457795901628698586901578910879214163486929233365942356217170741580678475669606246305806254074146649145220976471511575839005845159918958626316769690772863197690640089650161770189150866474086389477587996881343104679165664170979234191623479294512735566608331335176924265294570823182301757675871023495651221020470182137532110806172949114208905940113033850085233033627038106065913432312268528811511986126593751632646425001222136579967580763512558370102595185696572561694932159761099207907679139872307045157531314792781303447039272469709590524830949872945832815849803720513627732459140879182086693427344656199024122384898406968169580913778619677207105673481935787643480264334763994859832212219270360160177021167261068765768977110879816190811972538165735912792018415301296120748300149572123285971390808628812791609500110949547771524034005020688974669033616007708377449205900154466735191513238600930685922329492739907352438810855406782114459749064469054282049850268636736259784532678660144327628959843882218886936719368089198292084503395812498645080716029358767955651793010320318116881661816673201823254664834171060285958397120207485481776515874583535767704985800137793802374353852757408532388413032131638145655952491940633514062031216836565234503109863560360808667360547584785174168405441264065293603243786296046186609159321896039559103639944269414373288234089527917475295256560489810372324582984501486282465370794078267022807936329900224408683596250091763696734928477982628419216044289764313201408681181254028058235183447542871715955935315502026029121063724299999964724910138482696079236619211589546273587223108422544113959927651142709342728495621951230610161870091716416174654887943206384971302248646941453507738530744885120489848283028143253067549140297015254154236947176977315603827179568370250055025551398587796734696449164058066724578838403055291694550567603890793247446155181698699964337138182636862301894168070164446769818176474631760947431014628630658160217627734913914054655859744481622844337842647986414762548038162545187471201618814637367160034580322964502958208240889924153641435419595780898156294242010593034727233390096042687216172735688923688167553480863082239514031532554000373577126580478747733693857240485555905780101276905901204382182524114559320644145600072698529847662199558065164218406106340767604168450623865262181540549995354255932348711677472377005599482695018846238082973482647841151853469542434074396190937505686856166239867296094677309625334890756941669462805651740908623339048348428446228855964463603306922447428959648630748012875961685111772388572441099458090597459263796985993133486615923830216233847051509201658540913766087684616743353379828879625684123535015960062470065794679782631039841836982447743780580766793929941039588106080468474562936639649539478329929530035909911613798660047296966052950067649338423650473526798471212628812068151451492265703333185272001946372239195880796053868254330421829611630285770605730139180514934493378948050793732606132962604263046121759863719814503896841923654785945906406591466871856419842640196484762019438404756139591589166783581242456416898896303927722407956794383180665309326594673605511501755648904874602579425475456802579438865029032487506630302840535158405317158870830500591624753585712055052651929203689124559101556635331260393170003195405167459477007541910479835460591881717895477008471872663447374176961975776145703486457719173631574180636953908924679550567202021875460133621442925098483493206597417731125869103498873566994753402949242929589557205779971591043856458663253454882529355960239906760725325225505278782373157101461042936359692272217749843752971569218315665819185833397635233428175240738999790170264622942125743334190227664497095680546021990297172515029310988952024293765727711445117069613117846799296480575886525289154100728930380672178799064006367616575529130548431197667299807757434761587973680202135980603925388459524686758565935570030539081553210865462460248251643327579402201094741820258712811916545471487733774342948006956907740795375038511327226609234515700214698277298563702863536451918338626603174469468002454353560677238358997168791027586944073107243709630037216531191505884005295394952847526216178333204311233612987634003218099935646367992860617612603276963936634550309177169077558205506074823967999356579200365109058959901187485522217201865526851766185284628487336678627674127240967995638039428329244188055955094258519399389148758521097299780000743399405995987330745364448285541131681245519213849413486507522241857020497889005479353994805947723620243133137037500777024758940456005376716498439467282418203539837775315372063570039039512350398659602044333147366499148636473871036822486718246563866813595709024352271897435495834587208896373844218371010480002912211864418906031362718934208216262470823275002364046547898562106690958063678375400655007092838917321638519100805574864960643383745698837483180751864805194979681962434035958025344706668132019675797187764289797571387289191407459492083244601014999371198518802977420139993920868538364435351411651500315560644016279192063827570605355642113749349896838531600312682410500088263486432081140140726246223031325229877540807984043215360644556958973234704663743514433353518085104219747907371264219907724288320348570686988945114005246040328804895505099470783474925078805809281117459659633258634881135079224427583509448717722582707240506306866741790828898553753484656974531300236114326073089140169988373742703441894027012768480061885342458325106370968736927180532564280674179140821729582407070585605766506606263328804334172970742929379800434470570686118846672644721186877875313318252160650699620228396844594830738847876077673467870275538427990054565999956229403625923617702140028976852701289838121673825295033284020964576293901326056299406316437262310704006315025661529685258848988637657948335382222378621508985776518212411298955361609692212158845783860851667067161223558191617281486041145988252001282228190688243743067378943218810105685724390232321300896662189740112468358406697558527208251164691456877961125512391464328155857337612825058811314090940509535138287112620403454967367507098006054665559820972927264092489833344176444887665551486226580011802203825694552019954069628643159804408554860849068972866492914881058225572179368620029240095218773518158641958860908352198215194779111404940514191515882997611574408153901256931341148944774010820490736307098174787834624961586033627484625441688783178904938999750230719355431625560406921254606310028306327177229727692373495536888636428341328949786480888952814720268055661392171071015380022530188594245215042424821992384876850582407736589325218139037801785353741421284064972217009702998506348459458383831651510349855456992784959727552369196042377305759888955237913589382521098420984387577701622660604936241567113602807175007863128950064594130254910750704209731382265530610753584636043185681900019820159821876986615778042332883174339956866467887735473471825749401665789094895764255258950546182906712762899217571941006011895296962467079207415081126878930365130927039481219926574274823223281491215751156494491960152149623120872239541659539642965977252336769479917279133795311040006287966651853971602716958904846988557772133659924035165502367356150406189290558546285737869316479257282199583735500923259003031752543409707166507883921430495279328295321125406756067912591120305972588483425562562018331776418658958082179856010759652686824971341842630198815329838526847979436289455985378538950375609375605564311304785506346286165506978058871262477079064880595181111478415001709813404214219492579684415292022090168884614378942573039762647758045068383808989867929240684221364525415623899582315542037152716954673967616564986549285135075368527723403210546211877317130558376936015700282136230680302605193885495928734819206380642970140932011110508652823110507201746845203297032938146830598074146386238301363976072483300771068569847327174504432568878904624156417892112435025168523438191130309636499194984645680501143652915426073359071788601339920608010223259886664342702748620216054408830822537007268975979323841554719063090269297891967829974647746259544485413172638636293071870819222454895944484828915837689596890737761300697038205166675178695822378871119797270578223387673263309559022252254364397783966679927428998142541873887608407737384832779698389056184340534285009821394908152832298865243968168818769257856883191589997623634759776139286249081388225754647867445019012156538382027101609308987901139507177875107629765155950779644822929761852166278673511679139603893336080930328685606736199511035158916738875666112695179705441623206142815696079334194743438334994637775620522067622754782770311424365417826005285318258869207719569377714445237762922342492220029196655614069925170189175720972697833462696863124542404528968384123716057219830303707996908861592522533091391810705580721080088441437544029578897582236547788210892618780714499673279646063946218528011415499835346991835815521154481096137789321842985714397751520275296958727251560859182579564203038401614833624802154247487184603695389231270214758893261783255128180708024435412249817174142882203198803190162889518366913672903963158316027317202199702078424547726328588547679131216059381916380072191139571084219086196728506207071057429977226507757297369098288776903910737530668647740666943271492260417706216976167510943868554332670771484730875989991989599682499961383259619213128297437456389065073054535954468251741368654257933023163391485807996834130152143723312623267731829293797646075919407570232281327335631343941191326597489271141157026238090069602144213154196864332254380388995615330270039758341679662861998441427614395795955263260656770678532883892190668046410874611651977711602499040009428603963575265966453997493657160966959829963187230024212007762650967217777343452578367366197698928847167381825234830420026578762091544930277931952155958198843760125195470141141115876371251966286769588062484986782234852848111107672519927974720084534590417233183344961428288055654885767691346452205835636697567323067620788316887552888933471409531513618371142137773596745211463701181341156520794167308985784277543623151403199308660476037666210229349615124314733172889801536444893960192301133534035482197954235161820588585929017855375056601216174435017565492482143992794054740521223963815850927372323831569306402163418254047983997373931967110898391339708683043678461586999675791717692570108172049721542690496932211173911526175638608642862829480449360999062021040784887717549396606682018218750764728406746314340721683493071494258785503988211012742882943706783272963858747028728524885979953694939640114014240779081667652907909944965724396096429506469799669930390065265944131189360605392370161528350544750729275668642469500164934393426082006825581319978587779186694924532024199110941898854594746956616730179654385081742107066147833244040279323955480029266726852992947403340934745619095159472127292412177164095855089172378324183401280284814572464686312100255210735120479373858426796404327901616079479419170398879488570854731721698183376666439966161870398638899322597236893971254685693775215400246942568440011347861442323827883227322139434848042596920411607913635969895603770193366195926426519272256317701685281258584698451219912437236692995627168084995552099253478131775811462422275781202731777147198862141730252803095968406025221238427561834116038120288707801562480272448914552682374372759390699103952734557631736066121480239133697607825492083452368820306721163437154001319780833347352642560531567607685897429437223966895716400897959980341253491528902124425996238486971843298173539169769221664312960848091749823480400072117601667686635659489178106632683599716793721538288114701862338103749771436691430249339793426488844295026005269676968368420800394466075810808353785280792087130706080766886680372633248195705152573688087502214428637566299212907794427098397062436866043452554291731870529389725001441886460761768435383403250640339870860197512825984659022892880570292285687086506690291245585946978639852259568615333373968807939017590745007851013402607999932147366396120481094555927697390135108747050593728944263226526537828888320518969290074088309751328973088936280543258983811366423807876476311003994437216426711808277408819117591251156242092272214251237892478654357834920097520068438717201638332251326381660419282476505495208551728655480239068087091742307605864908540541885399840212229491932059230010170284193263113566479723912274872511615695070409495268726107281243433879254970821003377312954770996888600957947186881255763161814229658665927393267446425621369186212228951469277896862375612966080011744664189410006623303329427523332155303094664155314637470611395006436074814605680532318695457554171101755230660711584900338823444410586321507005242307317435816428564163478644687581791497773905700603099385779371707095822106667167736314637881286136708362491403943087144276492147606965344828897240544860422300573123235797132912107228520598824471728954144290057376178844276301994530519176392289333429523348556182760503353797229499579088337653833195586221605276093281199849525723337588783855221683627923661446427379148638250712374751811727298703803271369726187518921935215238319906175493203550403897569156439488013305203076408410455467219581317037698096210872429786828475799355278435255183886839517585584125724817442410877677405244597944489411396381745364191962984276466163276620670098685788713055626988350984956570316366983272181389550085431002349095555196227909495388993460462619934030968391358011778837094826310721592850687209735251433099447553911291259141783475778925634471049501901026046461814486386347044845403109632038138113050494870605748564014331051840108324160471511616315625539987489918378357895720516337173526487781814457245723908302824480884800987936009222954039040374114122934404831602901439246111389232664562643217775025923441624933762652933395509546523821609724964355286999513517092243269887589359679674854437631083852179002473402469865618243460591857392400888226759458922181526176279749754175187332582262601995485795989651513135974060108368624317993811687865514127160982233171152530558444630613593215332031633220450174518596899307867943741083792125143066904405627817119904024691658108203335639877470120937312225294840147569938711497940298005282556210935761524810815950858589484876716925864624762436985999003250645593118250699253005921224779992012397350710230606201068689133309111510849651619131679516908778331316788608107771579625463520149948410840866943213387596748698010920860705441996666140143835389119892754466955155728218467881367155848894977070418598318672956479400262699697911216545738585587950172414784143059176969889637449341903457481166408940995856800997791374811313492973143899061370087703728329547461738589704425147259679577782488051184397993925614162423862311772522471229252503808171953094948975375247858643891720622888101326543324991241325430193128155158082262533530551753496018985309999445876696006141134853841373805756794645193139832055292767888280477813648256581707923302465649184497184869723658359057255896400073404919090249377472345709864216020880077919212961227185042062333960347069643208393769605831746522281583694327255681600989088334664585790064684986356016980681792555465066188554369015208746791778395330174635423872642109774883342581816302006752889752363057395782467752952297932747819028903206143368385561647915030164051310580092347604444107356599098546404943430062657255847769252238487543774928108402976517293186949191776257971967285552891220366742206168398843071433233538277799458485545926780113567597251638529487810822781069129990976746614759856841463630173064777991379598178288670029396113854815543777053302857691432122058097564847675124603888668449122317110639627314391958773528240856322335933222485143562080391312201838041199826247736074970654006715019899022065691583578282329520839508412813185184397164329197169200859657827268608581318284581342315606671492701206296693512732656816595375196698579647818716281098257870399276797391030545091922362906374319417480453063646174393192547564704639939065546015899653883458778666231192594586045252284045830885642750868340196178442607021258273690725890599314809068526124126843702342320690881084105023581075141998920203789298889968840385985029511330383497695356351349187909098829153467632044724858664373587474914062113732395069887589459165351520732753112772271290450578806746172613440573533493363816323237237679954007438843419235431125367409963267465980016714224416524138663932707447567738212019229152224835517927542624512767728178914011260812975834331368339787204342685260890303352382284437722098030785422608033419157213059390191448300345917213859435007389416735679876549476733726728269951342889433901621405934355258183292146442874817070775174817783612494828207919762585759267715465852043331306193007092199400021920945057718726563205031186045413682429944082079393406557750139019855779333948072112994233325619494722615583599376557331586183798375635093009419324411392864637928074412856831784545226415519573059094239588924416757932328196140500993108176079678432386923611456681870171309757713140218157986833805845481488928491529282994239441840864129579977179602246707004571180333894256221897003301657626624947638698223225494574707608939795065764804846845879883772434867808373891336566865925008490359895941644465896772543396044049578869494284858263807021321041810639612618230484686732061279440765126850332995231326693035668638946350262189478546103521760854139094392917291687374506810969248804157213588947550770917495580079514200910201756141413508329815330345127741442773504820760881509447018286689874340410909951437333227761053672418189270280918646718568815478558204954882558621640463301015928662557703569206246413203182785323542037711957587405536029177797831226404506166919919770173862378530459739599549349949426162475520960232154641883352926651198916527125881481333338503518513538173961967915824822753537450615513029070281044072671346925449485248901286576066540158555997254250870151721288129217801072980868920374503979243034359687893832011570701371836477596369910565368414123097003376548661658993813190166009845068780884356070216684082749357587801594450402973731243912651981762129828476358962059088135511936061115058088288811242687937120229437722006662346461292642419954421833829397329669699823970379484220043567946275869231729176017063904747433429831095183219878117935365104253789588491307198373674249570194454822698816518020339316615443629097094986991134715503937572730644944789649865276155605068576966771458016262676501190821801504848897353266271345998604236276025814388940479382339496390924648196110862605964762626273987093908385790392391647808594833468715933039337449255352074061006812304798096964053716291345860360429757847740099372180236794141878927599691248819382370756673860464639540458330799713840326061615760387160861665125637800937482984544933089396794258487450615403083897359036130745091542066336255745278151959311349140569171733946879646588893623919234620296921357950826484619905253539639964961891302967972742051787682328479709467307397641914039438848926901697626019129838625409258568087404009602712790899062249197712042655810705944172103794424009988923941949657063808674565321477236582838458931120495789324155326951101460052185923413933547318001310391478530304053238689324801996341125569747163582372011030467108872210009442314247317934075415145059101848975760550785613339165029218500620391877531083413468562147289479918542270479525784107329186330335140007832222500856369646178148073561222791648703979334306431536615866539032957004116652016961774345147851430858932869879475016750969829641522842526862408080415489474052795178556741624012165387329033097800859633247690252933194024063342148255148688874805473182003664433193543070459568350895722011301251152125437445438225931435484493117593991964991307521943387798400994631891332560844141306466940138047779867897520382079166142411236944274158925003714143999033669779233707024754360221443683552105973923497021904633966152746755392716652689976955388324813370624150373620072433026798249323390739987252682028254325528481544906498351432671335009985343748039562517654501197023692413015949634786140569372499298253428023330397666834265461297963009517353144880257274737055298917152075140562390109067350922275983206185084428066505958770495673703122382521821040126347031584944186893987183930671720743450293424441377493593594171096611434988256867551181476764701908035596508576406898670699623994987382904724366270910642371470181979734709145584809699321691717416082700901057176640470805533211958244298230634614670428118651397966176127238405649052454935363046279038784396000380596604319709488274221891066305227491209231771684409717259158006965953131286328636013461747312348818045347645715900614149071511068638272474344285690264990280162340464007305428749608967141588696592446286725151760731386078606941982501522850924736117988502588318035635513394553378110745221608941377547803315690337712834471744736678271229253941846922174444067070420039389525653170086303664709078355819427592647132380895698054175901369399527212500283387770503994664126517095782270596893431097006518515151230378731585717040106563782536789346489662550030047210205951006368680273597818948190820597223544983837455778522492429757080468638779199073650914388764908461895069820761910362198642670777300671842176976478602892497909531823277037180734303184514251922008232135897575757512374810991433729174818309999591378442635228134978641736171840868535586250422554844549088177188725243353174928036715188682475786360261454232453006955205984533765158619292644485709983951106064894054603965917570167653613403339139379782626674872154036120678091676127378220122656738583025271800735855299962099673410211697156859612771253593030012682347705231172981067680709231907337161901747607149004377235516874007134855187981905805920946259829282538332206765407111955479160572190817316130275469781700011698244518277993345852325708910208082040457702575653523332570873832069787821838637572247953464355330273124605642152314927359045160625968252330292064705074402724586506554569921247077941325077519102828426927992277303072443160994296618528755494480204439096605778356783827022563327621050130584557550918739027202396315950490140558836309245870623771381647428707761049580686566819303105711123732304441430435596342271123415180210575870898986735536872018825771057630095123794829071878689180542423825109739084822144823724740201538775183705387429532574907764487227702938445697302372168753300387158996846393377665172426172469568710049738399124515018371886314728682619549610708750665638186316386515551968892267734403418220633178416320928647837440897078056298753006403112743161090983226296990070782936682286983706175451808394176276646486832935591988801182697002192746983482901518958222825240747552653967620781537090182250595307577568835434549557804826039965029843795939904706454526054736587826746625295594544397812165675215694820340394553220129125747005681400278080527394195867096428241435980960712076830979513722483136815859701160191346269486113597740693332884305107184738936727725110855965311016884994391414989957339765594343992104324851861384098875465412036128211545327328763756860801874152563054013930518674827322401439991080830154540783633975565634131316368364512666654317930872561226965926580048166495874916445759921579919016026643668661758080853692404560231003756143974208871090586800430331345597392240851874357551137905382100058773028788945522130762749663056647884680680740947179232654014525155117472961597690158898540544516057833625520563346862111562907155606882262670784019148417250768925743007130511730706387332640253763965787067557963386981625714730394787326434658585376075435224549434663167708327816608823644722844657030189524079208616170735175181690105716668058304750602531232701166722611891947790485780196563457267466860933563842675372404059434925883600856828308964947483680368844392343004567464422002545770083564227633784738966954919715058036228047934953965231273321271013488340047448303534517484467697074958154983374821720268546742697169965401937291556963888523292958355023530319546091325090155121846491281661822097531166240867082875646234949319312046298346298980713003770720730831537679314295931225893212040576856401807945169841612887870180860834136958102326911979902786418696703162019795755109574120531634806511237923848393070638412468823800186178564560100886572010597545864101574829521672995312082453518762633178023569777217868207814744787380172306311755257643158278455655767932378082784889460287019191831723199463689904262288291378957497882486836328210916880934490622202807596923207730316676387738933952966316876032925234338726339860148540707554327501017386907072668695676778094174359870647018610649531324831628580219179267434534658206605372702910297918231695749035989348413179543309524871172031050283914908192446115338514780122421401635568503628536677622378778271568387744054962303075034649376911776414738653049165691972087247167829492786269271036152397427848008486658854846638178606526014983711338221649628001372802844074031363568202909036247425179146395245345343267784505174404232423436536685274983963146997631054677099715435082849829848602378722538106049012416751687480739443918127351525364977541717991197639208097299553388199009111027613562742203979747622509012410632459854500484922366454033549737469797755144137932104020946951932754841139097438164046833487675251682155037310863600694170473960896236823242402311411528456208782462682669224547454573605709566260121183874586810245508057374395454271013482621627676963064158334466468764250786091350372564456171807419403155123791069559153041250591096563945569756691275159727482726202015059645983027882482039764840808091422603146474823150012392828572352268792861226361667250555573587447765932648367720407660895868094736612670730237506319072600207690377932673103673566279920225487080755639141161265385282653578724676039490887906791298747596800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+</code></pre></div>
+
+<p></td></tr></table></div></p>
+
+                                    
+                                
+                            </div>
+                        
+                    
+                </div>
+            </div>
+
+
+            
+            
+            
+                
+                    <div class="solution-footer hide-on-edit hide-on-delete row">
+                        
+                        
+                            
+                                
+                                
+                                <div class="reactions">
+                                    <span class="helpful">0 Helpful</span>
+                                    <span class="interesting">0 Interesting</span>
+                                    <span class="brilliant">0 Brilliant</span>
+                                    <span class="confused">0 Confused</span>
+                                </div>
+                                
+                            
+                        
+                    </div>
+                
+
+            
+
+
+
+            
+            
+
+        </div>
+
+        
+        
+
+
+        
+    </div>
+
+
+    
+    
+    
+        
+            <div class="discsol-comments comment-wrapper hide-form row">
+                
+                    <div class="cmp_c912f8e68a5f586a61078f31a8e384cd_id">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/template" id="comment-form-template">
+    <form method="post" action="https://brilliant.org/problems/2018-0s/&lt;%=&#32;formUrl&#32;%&gt;"
+        class="comment-form<%- formName === 'edit_comment' ? ' edit-form' : '' %> clearfix row"
+        id="<%= formId %>"
+        data-controller="util/mathjax_loader:formPreloader">
+
+            <input type="hidden" name="csrfmiddlewaretoken" value="qChqsUw4J6y2pmNYYxiCz9EQN0vODcIS9qor9kMAYWEjDri1aEkLkM1YTuoM9jF1">
+
+            <input type="hidden" name="form_name" value="<%= formName %>">
+            <input type="hidden" name="page_key" value="assessment_public_solvable_logged_in">
+            <input type="hidden" name="version" value="<%- version %>">
+            <% if (commentId && !formIdParentId) { %>
+                <input type="hidden" name="existing_comment_id" value="<%- commentId %>">
+            <% } %>
+            <% if (paramKey) { %>
+                <input type="hidden" name="param_key" value="<%= paramKey %>">
+            <% } %>
+            <input type="hidden" name="parent_id" value="<%= parentId %>">
+
+            
+
+            <fieldset class="editor"
+                data-controller="util/autosave:controller"
+                data-autosave-key="<%= autosaveKey %>"
+                data-autosave-hours="3"
+                data-autosave-field="comment"
+                data-autosave-user="gTlCC4o6R8QzJ8FFw1BEZ0tfaYra2gtu">
+                    <p>
+                        <label for="id_text_<%- commentId %>">Text:</label>
+                        <textarea id="id_text_<%- commentId %>"
+                            placeholder="add a comment..."
+                            rows="1"
+                            cols="40"
+                            spellcheck="true"
+                            name="text"
+                            class="expand"><%- commentText %></textarea>
+                    </p>
+                    <%= errors %>
+            </fieldset>
+
+            <div class="comment-form-buttons col col-1">
+                
+                    <% if (topLevelDiscCommentForm) { %>
+                        <button type="submit" class="btn btn-accent btn-gray col col-1 col-last autosave-submit">Post</button>
+                        <a href="https://brilliant.org/math-formatting-guide/"
+                           class="formatting-guide-link"
+                           data-controller="app/comments:formattingGuideLink"
+                           data-target="#disc-formatting-guide">
+                                Formatting guide</a>
+                    <% } else { %>
+                        
+                            <button type="submit" class="btn btn-accent btn-gray col col-1 col-last autosave-submit">Post</button>
+                            <a href="2018-0s.html#" class="cancel-edit-trigger col col-1 col-last<%- isEditingThis || commentFormSuccess ? ' hide' : '' %>">Cancel</a>
+                            
+                        
+                    <% } %>
+                
+            </div>
+    </form>
+</script>
+
+
+
+<div class="discsol-comments-wrapper row" id="comment-list-192379">
+
+    <a name="comments"></a>
+    
+
+    
+
+        <div class="disc-comments row" data-highlighted-comment-id="">
+
+            <div class="cmmnt-container level-0 clearfix row solcomment" data-level="0">
+
+                
+
+            </div> 
+        </div>
+    
+    
+</div>
+
+
+</div>
+                
+            </div>
+        
+    
+    
+
+</div> 
+
+        
+    
+
+
+    
+</div>
+</div>
+
+                    
+                </div>
+            </div>
+
+            
+        
+
+        
+            <div class="solv-disputes row hide" id="disputes-scrollable-container">
+                
+                    <div id="cmp_assessment_end_state_disputes_header_id">
+                        
+<div class="solv-end-state-header row">
+    
+    
+
+
+<div class="discsol-list-header row">
+    <h2>
+        
+            
+                0 pending reports
+            
+        
+    </h2>
+
+    
+        <h3>
+            
+                
+            
+        </h3>
+    
+</div>
+
+
+    
+    
+</div>
+
+                    </div>
+                
+
+                <div id="cmp_disputediscussions_publicsolvableadddisputepost_id">
+                    
+                </div>
+                <div id="cmp_disputediscussions_publicsolvabledisputelist_id">
+                    
+                </div>
+            </div>
+        
+
+        
+        
+            
+        
+
+        
+        
+            
+        
+
+        
+        
+    </div>
+
+
+
+    <div id="cmp_assessment_solvable_recommendations_id">
+        
+
+    <div class="solv-recommend-quizzes row">
+        <h2>Related quizzes</h2>
+
+        
+            
+
+
+    
+        <a href="https://brilliant.org/practice/trailing-number-of-zeros/"
+            class="quiz concept col col-6">
+
+            <span class="concept-quiz-icon icon css-sprite-quiz"></span>
+            <h4>Trailing Number of Zeroes</h4>
+            <span>Master the concepts!</span>
+
+            
+        </a>
+    
+
+
+
+        
+
+        
+            
+
+
+    
+        <a href="https://brilliant.org/practice/factorials-level-3-4-challenges/"
+            class="quiz challenge col col-6 col-last active">
+
+            <span class="challenge-quiz-icon icon css-sprite-quiz"></span>
+            <h4>Factorials: Level 3 Challenges</h4>
+            <span>Try related challenges!</span>
+
+            
+                <span class="recommended-text">Recommended</span>
+            
+        </a>
+    
+
+
+
+        
+    </div>
+
+    
+
+
+    </div>
+
+
+
+</div>
+
+    
+
+    
+
+
+
+    
+
+    
+        <div data-controller="util/mathjax_loader:controller"></div>
+    
+
+    
+
+
+<div 
+    data-analytics-live="true"
+    data-segment-key="ttlCaHQqOWtslnGGJ9W4bBeRpfYGksuD"
+    data-segment-url="https://in.brilliant.org"
+    data-amplitude-key="2d768258f0a7507203c7998a3e2678f0"
+    
+    
+    data-cio-key="9b180e7983a5a792f198"
+    data-cio-identify-data='{"id": "gTlCC4o6R8QzJ8FFw1BEZ0tfaYra2gtu", "email": "", "created_at": 1622063100, "account_type": "no_track_stats", "first_name": "", "last_name": "", "locale": "en", "profile_url_part": "", "auto_login_key": "", "unsubscribed": false, "global_unsubscribe_push_notif": false, "profile_info_last_updated": 1625528314, "current_paying_brilliant_squared": true, "current_brilliant_squared": true, "subscribed_at_mention_email": true, "subscribed_at_mention_push_notif": true, "subscribed_new_comment_email": true, "subscribed_new_comment_push_notif": true, "subscribed_new_solution_to_posted_problem_email": true, "subscribed_new_solution_to_posted_problem_push_notif": true, "subscribed_new_solution_on_incorrect_attempt_email": true, "subscribed_new_solution_on_incorrect_attempt_push_notif": false, "subscribed_new_follower_email": true, "subscribed_new_follower_push_notif": true, "subscribed_new_reshare_email": true, "subscribed_new_reshare_push_notif": false, "subscribed_new_favorite_email": true, "subscribed_new_favorite_push_notif": false, "subscribed_close_to_leveling_up_email": true, "subscribed_close_to_leveling_up_push_notif": false, "subscribed_leveled_up_email": true, "subscribed_leveled_up_push_notif": true, "subscribed_maintain_streak_email": true, "subscribed_maintain_streak_push_notif": true, "subscribed_finish_practice_reminder_email": true, "subscribed_finish_practice_reminder_push_notif": true, "subscribed_news_and_announcements_email": true, "subscribed_news_and_announcements_push_notif": true, "subscribed_interesting_community_problems_email": true, "subscribed_interesting_community_problems_push_notif": true, "subscribed_interesting_opportunities_email": true, "subscribed_interesting_opportunities_push_notif": true, "subscribed_community_activity_email": true, "subscribed_community_activity_push_notif": true, "subscribed_hasnt_unsubscribed_from_hundred_day_email": true, "subscribed_hundred_day_challenge_email": false, "subscribed_reminder_for_recurring_subscription_payments": false, "user_type": "student", "country": "USA", "tried_a_solvable": false, "has_correct_try": false, "has_fb_connected": false, "birthday_day_start_utc": 524707200, "timezone": "America/Los_Angeles", "approx_utc_offset": -7.0, "ab_test__send_startalk_welcome_email_04_2018": false, "ab_test__reduce_nux_email_volumes_2018_08": false, "is_discussions_moderator": false, "has_app_installed_currently": false, "has_android_installed_currently": false, "has_ios_installed_currently": false, "num_dq_ps_tt_viewed_aka_atmpt_mde": 1495, "num_dq_ps_tt_guess_aka_trs_mde": 0, "num_dq_ps_tt_correct_aka_atmpt_slv": -2}'
+    data-analytics-identity="gTlCC4o6R8QzJ8FFw1BEZ0tfaYra2gtu"
+    data-analytics-super-properties='{"locale": "en", "account_type": "no_track_stats", "debug": false, "client": "desktop-browser", "sessionid": "umjhnc", "user_agent": "Wget/1.19.4 (linux-gnu)", "identity": "gTlCC4o6R8QzJ8FFw1BEZ0tfaYra2gtu", "anon_ident_latest": "KeVumaZDKE0o1avnZp6AnKzfZa4kTw7a", "has_fb_connected": false, "join_ts": "2021-05-26T21:05:00.166711+00:00", "join_date": "2021-05-26", "join_month": "May 2021", "last_login": "2021-06-02 18:37:38.985318+00:00", "has_premium": true, "tries_made": 0, "max_level": 0, "createdAt": 1622063100, "ab_test__send_startalk_welcome_email_04_2018": false, "ab_test__reduce_nux_email_volumes_2018_08": false}'
+    data-analytics-user-properties='{"exp__chargebee_gift_09_2020": "control", "exp__nux_onboarding_03_2021": "specific_paths", "exp__signup_modal_one_tap_06_2021": "control", "exp__logged_out_coupon_banners_04_2021": "experiment", "exp__chargebee_paywall_mature_06_2021": "control", "exp__cancellation_updates_06_2020": "experiment", "exp__chargebee_paywall_08_2020_round_3": "chargebee", "exp__chargebee_group_09_2020": "control", "exp__v2_sem_landing_banner_experiment_05_2021": "control", "exp__paywall_redesign_02_2021": "control", "exp__logged_in_premium_banners_04_2021": "control", "exp__highlight_1st_lesson_03_2021": "experiment", "exp__sem_landing_banner_experiment_05_2021": "control", "exp__paywall_redesign_02_2021_v2": "control", "exp__signup_modal_one_tap_06_2021_v2": "experiment"}'
+    data-facebook-ad-pixel-id="712046235504105"
+    data-google-ad-pixel-id="1007657493"
+    data-ltv-event-id="0"
+    data-ltv-event-ltv=""
+    data-ltv-event-currency=""
+    data-ltv-event-interval=""
+    data-ltv-event-confirm-url=""
+    data-send-ga-trial-subscription-event=""
+
+    
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+        data-tries="0"
+        data-level="0"
+        data-content-type="solvable" data-slug="2018-0s" data-topic="number-theory"
+        
+    
+    >
+        <div class="" data-ax-name="sign_of_life" data-ax-properties='{"path": "/problems/2018-0s/", "full_path": "/problems/2018-0s/", "method": "GET", "ajax": false, "from_request": true, "is_android": false}'></div>
+<div class="" data-ax-name="gtag__sign_of_life" data-ax-properties='{"gtag_value__attempts_all_time": 1495, "path": "/problems/2018-0s/", "full_path": "/problems/2018-0s/", "method": "GET", "ajax": false, "from_request": true, "is_android": false}'></div>
+</div>
+
+
+    
+        
+
+    <div data-controller="util/branch:init"
+        
+        data-branch-key="key_live_hchs2frj8AeD0WKiFpCVunopxFc92aiU">
+
+        
+    </div>
+
+
+    
+
+    
+        <div id="footer-notifs">
+            
+
+
+    
+        
+
+            
+            
+                <div id="custom-front-chat-launcher"
+    class="hide"
+    data-controller="app/front_chat:launcher"
+    
+    
+    
+        data-email=""
+        data-name=""
+        data-user-hash="4834d98239b3ac908d6f18b727211444b80b8bd18a697f3018404dceb48ec05f"
+    
+    data-token="9ee2a72511f80ebb85b8415fad5f79b5">
+
+        <span class="open css-sprite-global"></span>
+        <span class="close css-sprite-global"></span>
+        <span class="unread-message-counter"></span>
+        <span class="spinner"></span>
+
+</div>
+
+            
+            
+
+        
+
+    
+    
+
+
+            
+                
+                
+
+
+
+
+            
+        </div>
+    
+
+</div>
+
+
+    
+        
+    
+        <div class="site-footer row">
+            
+            
+    
+        
+                <div class="apps-footer row">
+    <a href="https://itunes.apple.com/app/apple-store/id913335252?pt=105095803&ct=brilliant_website_footer&mt=8"
+        rel="nofollow"
+        class="app-store-badge css-sprite-global ax-click"
+        data-ax-id="clicked_ios_app_link_from_homepage"
+        data-ax-type="link">
+            Practice math and science questions on the Brilliant iOS app.</a>
+    <a href="https://play.google.com/store/apps/details?id=org.brilliant.android&referrer=utm_source%3Dbrilliant%26utm_medium%3Dsite%26utm_campaign%3Dplaystore_full_footer_icon"
+        rel="nofollow"
+        class="google-play-badge css-sprite-global">
+            Practice math and science questions on the Brilliant Android app.</a>
+</div>
+
+                
+
+<ul class="site-footer-main unstyled">
+    
+        <li class="social">
+            <a href="https://twitter.com/brilliantorg"
+                rel="nofollow"
+                class="css-sprite-third-party tw"></a>
+        </li>
+        <li class="social">
+            <a href="https://www.facebook.com/brilliantorg"
+                rel="nofollow"
+                class="css-sprite-third-party fb"></a>
+        </li>
+        
+    
+
+    <li><a href="https://brilliant.org/about/">
+        About</a></li>
+
+    <li><a href="https://brilliant.org/careers/">
+        Careers</a></li>
+
+    
+        <li><a href="https://brilliant.org/testimonials/">
+            Testimonials</a></li>
+    
+
+    
+
+    <li><a href="https://brilliant.org/help/">
+        Help</a></li>
+
+    <li><a href="https://brilliant.org/terms-of-use/" rel="nofollow">
+        Terms</a></li>
+
+    <li><a href="https://brilliant.org/privacy/" rel="nofollow">
+        Privacy</a></li>
+
+    <li><a href="https://brilliant.org/ccpa-policy/" rel="nofollow">
+        California Privacy Policy</a></li>
+
+    
+
+    <li>&copy; Brilliant 2021</li>
+</ul>
+
+            
+    
+
+        </div>
+    
+
+    
+
+
+
+
+
+
+<div id="default-ajax-error"
+    class="hide"
+    data-error-title="Error"
+    data-error-content="We encountered an error while talking to our servers. Refresh the page and try again in a few seconds. If the problem persists, please <a href='mailto:support@brilliant.org'>email us</a>."
+    data-timeout-content="That action is taking longer than expected. This is likely due to network issues. Please try again in a few seconds, and if the problem persists, <a href='mailto:support@brilliant.org'>send us an email</a>.">
+</div>
+
+
+    <script type="text/javascript">
+        window.VERSIONS = {
+            
+        } ;
+    </script>
+
+
+    
+        
+    
+    
+
+
+<script type="text/javascript">
+    var oldonload = window.onload || function () {};
+    window.onload = function () {
+        window.isLoaded = true;
+        oldonload.apply(this);
+    };
+
+    Raven.config('https://7a3209face864b4681f7aefb4199d5ab@sentry.brilliant.org/3', {
+        tags: {
+            anonymous: false,
+            b2: true,
+            
+                client: 'desktop-browser'
+            
+        },
+        whitelistUrls: [
+            /brilliant\.org/,
+            /ds055uzetaobb\.cloudfront\.net/,
+            /d18l82el6cdm1i\.cloudfront\.net/,
+        ],
+    }).install();
+
+    
+        Raven.setUserContext({ id: 12320532 });
+    
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="../../site_media/build/dist/brilliant_vendors.60a88b6eecaf1741b17e.js" type="text/javascript"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="../../site_media/build/dist/brilliant_entry.6361249372a78abf9b13.js" type="text/javascript"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+        
+    
+
+    
+    
+<div id="fb-root"></div>
+<script>
+noop = function() {
+    FB.init({
+        appId: '326254770799145',
+        version: 'v5.0',
+        status: true,
+        xfbml: true,
+        frictionlessRequests: true
+    });
+
+    
+    window.fb_auth_status=function(c){
+        c=c||function(){};
+        FB.getLoginStatus(function(r){
+            if(r.status==='connected'){c(true,r);}
+            else{c(false,r);}
+        });
+    };
+    
+    window._fb_status=window._fb_status||[];
+    var i=0,l=_fb_status.length;
+    for(i;i<l;i++){fb_auth_status(_fb_status[i]);}
+    _fb_status=[];
+};
+
+(function(d, s, id){
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) {return;}
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js";
+    fjs.parentNode.insertBefore(js, fjs);
+});
+</script>
+
+
+    
+    
+
+    
+
+    
+        
+            
+
+    <div class="nf-feeditem-modal hide" id="nf-feeditem-modal">
+
+        <div class="nf-modal-close close" id="nf-modal-close">&times;</div>
+
+        <div class="nf-modal-loading">
+            <div class="logo"></div>
+            <div class="stripe"></div>
+            <p class="solvable-text">Problem Loading...</p>
+            <p class="note-text">Note Loading...</p>
+            <p class="set-text">Set Loading...</p>
+        </div>
+
+        <div class="nf-feeditem-modal-wrapper">
+            <div class="nf-solvable-modal-content nf-modal-content solv-modal clearfix"
+                id="cmp_assessment_modal_public_solvable_component_id"></div>
+            <div class="nf-post-modal-content nf-modal-content newdisc-single"
+                id="cmp_discussions_modal_single_component_id"></div>
+        </div>
+    </div>
+
+
+        
+    
+
+    </body>
+</html>
+
+
